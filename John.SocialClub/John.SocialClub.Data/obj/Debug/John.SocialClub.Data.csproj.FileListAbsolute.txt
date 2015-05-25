@@ -1,0 +1,8 @@
+C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Data\bin\Debug\John.SocialClub.Data.dll.config
+C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Data\bin\Debug\John.SocialClub.Data.dll
+C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Data\bin\Debug\John.SocialClub.Data.pdb
+C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Data\bin\Debug\EntityFramework.dll
+C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Data\bin\Debug\EntityFramework.xml
+C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Data\obj\Debug\John.SocialClub.Data.csprojResolveAssemblyReference.cache
+C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Data\obj\Debug\John.SocialClub.Data.dll
+C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Data\obj\Debug\John.SocialClub.Data.pdb
