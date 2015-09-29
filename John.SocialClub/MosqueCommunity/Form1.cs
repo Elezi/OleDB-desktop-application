@@ -85,5 +85,10 @@ namespace MosqueCommunity
 
         }
 
+        private void ribbon1_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
