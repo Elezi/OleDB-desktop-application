@@ -90,5 +90,20 @@ namespace MosqueCommunity
 
         }
 
+        private void ribbonButton_form1_Click(object sender, EventArgs e)
+        {
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.GetType() == typeof(StudentsForm))
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+            Form studentsForm = new StudentsForm();
+            studentsForm.MdiParent = this;
+            studentsForm.Show();
+        }
+
     }
 }
