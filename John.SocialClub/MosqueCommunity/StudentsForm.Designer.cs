@@ -125,7 +125,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(3, 117);
+            this.tabControl1.Location = new System.Drawing.Point(3, 124);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(903, 424);
@@ -399,9 +399,9 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(3, 62);
+            this.panel1.Location = new System.Drawing.Point(3, 61);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(903, 49);
+            this.panel1.Size = new System.Drawing.Size(900, 60);
             this.panel1.TabIndex = 4;
             // 
             // button5
@@ -464,9 +464,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(3, 12);
+            this.panel2.Location = new System.Drawing.Point(3, 1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(903, 44);
+            this.panel2.Size = new System.Drawing.Size(900, 60);
             this.panel2.TabIndex = 5;
             // 
             // label1
@@ -623,7 +623,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.AutoScrollMinSize = new System.Drawing.Size(20, 20);
+            this.AutoScrollMinSize = new System.Drawing.Size(20, 60);
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(906, 539);
             this.Controls.Add(this.panel2);

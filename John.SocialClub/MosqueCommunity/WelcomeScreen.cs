@@ -36,7 +36,7 @@ namespace MosqueCommunity
             //after 3 sec stop the timer
             tmr.Stop();
             //display mainform
-            Form1 mf = new Form1();
+            MainMDIForm mf = new MainMDIForm();
             mf.Show();
             //hide this form
             this.Hide();
@@ -45,6 +45,11 @@ namespace MosqueCommunity
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_DoubleClick(object sender, EventArgs e)
+        {
+            tmr_Tick(sender,e);
         }
     }
 }
