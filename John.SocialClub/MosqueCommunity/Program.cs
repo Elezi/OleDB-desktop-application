@@ -14,6 +14,7 @@ namespace MosqueCommunity
         [STAThread]
         static void Main()
         {
+            Application.Run(new WelcomeScreen());
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
