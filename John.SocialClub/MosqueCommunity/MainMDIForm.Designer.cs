@@ -78,7 +78,10 @@ namespace MosqueCommunity
             this.ribbonButton2 = new System.Windows.Forms.RibbonButton();
             this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
             this.ribbonPanel1 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonButton_form1 = new System.Windows.Forms.RibbonButton();
+            this.ribbonStudentsButton = new System.Windows.Forms.RibbonButton();
+            this.ribbonTeachersButton = new System.Windows.Forms.RibbonButton();
+            this.ribbonParentsButton = new System.Windows.Forms.RibbonButton();
+            this.ribbonLessonsButton = new System.Windows.Forms.RibbonButton();
             this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
             this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
             this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
@@ -90,6 +93,8 @@ namespace MosqueCommunity
             this.ribbonCheckBox1 = new System.Windows.Forms.RibbonCheckBox();
             this.ribbonButton3 = new System.Windows.Forms.RibbonButton();
             this.ribbonButton4 = new System.Windows.Forms.RibbonButton();
+            this.ribbonSeparator2 = new System.Windows.Forms.RibbonSeparator();
+            this.ribbonSeparator3 = new System.Windows.Forms.RibbonSeparator();
             this.grpbxRegisterMembers.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -99,7 +104,7 @@ namespace MosqueCommunity
             | System.Windows.Forms.AnchorStyles.Left)));
             this.trvwMainTree.ImageIndex = 0;
             this.trvwMainTree.ImageList = this.imgLstTreeview;
-            this.trvwMainTree.Location = new System.Drawing.Point(26, 147);
+            this.trvwMainTree.Location = new System.Drawing.Point(11, 160);
             this.trvwMainTree.Margin = new System.Windows.Forms.Padding(2);
             this.trvwMainTree.Name = "trvwMainTree";
             treeNode1.Name = "ndRegister";
@@ -148,7 +153,7 @@ namespace MosqueCommunity
             this.grpbxMembers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.grpbxMembers.Location = new System.Drawing.Point(298, 138);
+            this.grpbxMembers.Location = new System.Drawing.Point(298, 188);
             this.grpbxMembers.Margin = new System.Windows.Forms.Padding(2);
             this.grpbxMembers.Name = "grpbxMembers";
             this.grpbxMembers.Padding = new System.Windows.Forms.Padding(2);
@@ -164,7 +169,7 @@ namespace MosqueCommunity
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grpbxRegisterMembers.Controls.Add(this.grpbxReportMembers);
-            this.grpbxRegisterMembers.Location = new System.Drawing.Point(298, 155);
+            this.grpbxRegisterMembers.Location = new System.Drawing.Point(294, 208);
             this.grpbxRegisterMembers.Margin = new System.Windows.Forms.Padding(2);
             this.grpbxRegisterMembers.Name = "grpbxRegisterMembers";
             this.grpbxRegisterMembers.Padding = new System.Windows.Forms.Padding(2);
@@ -199,17 +204,20 @@ namespace MosqueCommunity
             // 
             // 
             // 
+            this.ribbon1.OrbDropDown.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ribbon1.OrbDropDown.BackgroundImage")));
             this.ribbon1.OrbDropDown.BorderRoundness = 8;
             this.ribbon1.OrbDropDown.Location = new System.Drawing.Point(0, 0);
             this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonOrbMenuItem1);
             this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonSeparator1);
             this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonOrbMenuItem2);
+            this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonSeparator2);
+            this.ribbon1.OrbDropDown.MenuItems.Add(this.ribbonSeparator3);
             this.ribbon1.OrbDropDown.Name = "";
             this.ribbon1.OrbDropDown.OptionItems.Add(this.ribbonOrbOptionButton1);
             this.ribbon1.OrbDropDown.RecentItems.Add(this.ribbonOrbRecentItem1);
             this.ribbon1.OrbDropDown.RecentItems.Add(this.ribbonOrbRecentItem2);
             this.ribbon1.OrbDropDown.RecentItems.Add(this.ribbonOrbRecentItem3);
-            this.ribbon1.OrbDropDown.Size = new System.Drawing.Size(527, 163);
+            this.ribbon1.OrbDropDown.Size = new System.Drawing.Size(527, 169);
             this.ribbon1.OrbDropDown.TabIndex = 0;
             this.ribbon1.OrbImage = null;
             // 
@@ -218,52 +226,51 @@ namespace MosqueCommunity
             this.ribbon1.QuickAcessToolbar.Items.Add(this.ribbonButton1);
             this.ribbon1.QuickAcessToolbar.Items.Add(this.ribbonButton2);
             this.ribbon1.RibbonTabFont = new System.Drawing.Font("Trebuchet MS", 9F);
-            this.ribbon1.Size = new System.Drawing.Size(848, 142);
+            this.ribbon1.Size = new System.Drawing.Size(848, 150);
             this.ribbon1.TabIndex = 3;
             this.ribbon1.Tabs.Add(this.ribbonTab1);
             this.ribbon1.Tabs.Add(this.ribbonTab2);
             this.ribbon1.TabsMargin = new System.Windows.Forms.Padding(12, 26, 20, 0);
-            this.ribbon1.Text = "ribbon1";
-            this.ribbon1.ThemeColor = System.Windows.Forms.RibbonTheme.Blue;
-            this.ribbon1.Click += new System.EventHandler(this.ribbon1_Click);
+            this.ribbon1.Text = "Mosque";
+            this.ribbon1.ThemeColor = System.Windows.Forms.RibbonTheme.Blue;            
             // 
             // ribbonOrbMenuItem1
             // 
             this.ribbonOrbMenuItem1.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
             this.ribbonOrbMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem1.Image")));
             this.ribbonOrbMenuItem1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem1.SmallImage")));
-            this.ribbonOrbMenuItem1.Text = "ribbonOrbMenuItem1";
+            this.ribbonOrbMenuItem1.Text = "New";
             // 
             // ribbonOrbMenuItem2
             // 
             this.ribbonOrbMenuItem2.DropDownArrowDirection = System.Windows.Forms.RibbonArrowDirection.Left;
             this.ribbonOrbMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem2.Image")));
             this.ribbonOrbMenuItem2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbMenuItem2.SmallImage")));
-            this.ribbonOrbMenuItem2.Text = "ribbonOrbMenuItem2";
+            this.ribbonOrbMenuItem2.Text = "Print to PDF";
             // 
             // ribbonOrbOptionButton1
             // 
             this.ribbonOrbOptionButton1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton1.Image")));
             this.ribbonOrbOptionButton1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton1.SmallImage")));
-            this.ribbonOrbOptionButton1.Text = "ribbonOrbOptionButton1";
+            this.ribbonOrbOptionButton1.Text = "Select Mosque";
             // 
             // ribbonOrbRecentItem1
             // 
             this.ribbonOrbRecentItem1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem1.Image")));
             this.ribbonOrbRecentItem1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem1.SmallImage")));
-            this.ribbonOrbRecentItem1.Text = "ribbonOrbRecentItem1";
+            this.ribbonOrbRecentItem1.Text = "Export database";
             // 
             // ribbonOrbRecentItem2
             // 
             this.ribbonOrbRecentItem2.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem2.Image")));
             this.ribbonOrbRecentItem2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem2.SmallImage")));
-            this.ribbonOrbRecentItem2.Text = "ribbonOrbRecentItem2";
+            this.ribbonOrbRecentItem2.Text = "Import from Excel";
             // 
             // ribbonOrbRecentItem3
             // 
             this.ribbonOrbRecentItem3.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem3.Image")));
             this.ribbonOrbRecentItem3.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem3.SmallImage")));
-            this.ribbonOrbRecentItem3.Text = "ribbonOrbRecentItem3";
+            this.ribbonOrbRecentItem3.Text = "Synchronze with server";
             // 
             // ribbonButton1
             // 
@@ -283,28 +290,53 @@ namespace MosqueCommunity
             // 
             this.ribbonTab1.Panels.Add(this.ribbonPanel1);
             this.ribbonTab1.Panels.Add(this.ribbonPanel2);
-            this.ribbonTab1.Text = "ribbonTab1";
+            this.ribbonTab1.Text = "Units";
             // 
             // ribbonPanel1
             // 
-            this.ribbonPanel1.Items.Add(this.ribbonButton_form1);
-            this.ribbonPanel1.Text = "ribbonPanel1";
+            this.ribbonPanel1.Items.Add(this.ribbonStudentsButton);
+            this.ribbonPanel1.Items.Add(this.ribbonTeachersButton);
+            this.ribbonPanel1.Items.Add(this.ribbonParentsButton);
+            this.ribbonPanel1.Items.Add(this.ribbonLessonsButton);
+            this.ribbonPanel1.Text = "Madrasah";
             // 
-            // ribbonButton_form1
+            // ribbonStudentsButton
             // 
-            this.ribbonButton_form1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton_form1.Image")));
-            this.ribbonButton_form1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton_form1.SmallImage")));
-            this.ribbonButton_form1.Click += new System.EventHandler(this.ribbonButton_form1_Click);
+            this.ribbonStudentsButton.Image = ((System.Drawing.Image)(resources.GetObject("ribbonStudentsButton.Image")));
+            this.ribbonStudentsButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonStudentsButton.SmallImage")));
+            this.ribbonStudentsButton.Text = "Students";
+            this.ribbonStudentsButton.Click += new System.EventHandler(this.ribbonStudentsButton_Click);
+            // 
+            // ribbonTeachersButton
+            // 
+            this.ribbonTeachersButton.Image = ((System.Drawing.Image)(resources.GetObject("ribbonTeachersButton.Image")));
+            this.ribbonTeachersButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonTeachersButton.SmallImage")));
+            this.ribbonTeachersButton.Text = "Teachers";
+            this.ribbonTeachersButton.Click += new System.EventHandler(this.ribbonTeachersButton_Click);
+            // 
+            // ribbonParentsButton
+            // 
+            this.ribbonParentsButton.Image = ((System.Drawing.Image)(resources.GetObject("ribbonParentsButton.Image")));
+            this.ribbonParentsButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonParentsButton.SmallImage")));
+            this.ribbonParentsButton.Text = "Parents";
+            this.ribbonParentsButton.Click += new System.EventHandler(this.ribbonParentsButton_Click);
+            // 
+            // ribbonLessonsButton
+            // 
+            this.ribbonLessonsButton.Image = ((System.Drawing.Image)(resources.GetObject("ribbonLessonsButton.Image")));
+            this.ribbonLessonsButton.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonLessonsButton.SmallImage")));
+            this.ribbonLessonsButton.Text = "Lessons";
+            this.ribbonLessonsButton.Click += new System.EventHandler(this.ribbonLessonsButton_Click);
             // 
             // ribbonPanel2
             // 
-            this.ribbonPanel2.Text = "ribbonPanel2";
+            this.ribbonPanel2.Text = "Prayers";
             // 
             // ribbonTab2
             // 
             this.ribbonTab2.Panels.Add(this.ribbonPanel3);
             this.ribbonTab2.Panels.Add(this.ribbonPanel4);
-            this.ribbonTab2.Text = "ribbonTab2";
+            this.ribbonTab2.Text = "Activities";
             // 
             // ribbonPanel3
             // 
@@ -312,22 +344,25 @@ namespace MosqueCommunity
             this.ribbonPanel3.Items.Add(this.ribbonButton6);
             this.ribbonPanel3.Items.Add(this.ribbonButton7);
             this.ribbonPanel3.Items.Add(this.ribbonComboBox1);
-            this.ribbonPanel3.Text = "ribbonPanel3";
+            this.ribbonPanel3.Text = "Membership";
             // 
             // ribbonButton5
             // 
             this.ribbonButton5.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.Image")));
             this.ribbonButton5.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.SmallImage")));
+            this.ribbonButton5.Text = "New Member";
             // 
             // ribbonButton6
             // 
             this.ribbonButton6.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.Image")));
             this.ribbonButton6.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.SmallImage")));
+            this.ribbonButton6.Text = "Active Members";
             // 
             // ribbonButton7
             // 
             this.ribbonButton7.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.Image")));
             this.ribbonButton7.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.SmallImage")));
+            this.ribbonButton7.Text = "Event";
             // 
             // ribbonComboBox1
             // 
@@ -335,7 +370,7 @@ namespace MosqueCommunity
             // 
             // ribbonPanel4
             // 
-            this.ribbonPanel4.Text = "ribbonPanel4";
+            this.ribbonPanel4.Text = "Zakat";
             // 
             // ribbonButton3
             // 
@@ -347,7 +382,7 @@ namespace MosqueCommunity
             this.ribbonButton4.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.Image")));
             this.ribbonButton4.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.SmallImage")));
             // 
-            // Form1
+            // MainMDIForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -360,7 +395,7 @@ namespace MosqueCommunity
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
+            this.Name = "MainMDIForm";
             this.Text = "Community Software";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.grpbxRegisterMembers.ResumeLayout(false);
@@ -400,7 +435,12 @@ namespace MosqueCommunity
         private RibbonCheckBox ribbonCheckBox1;
         private RibbonButton ribbonButton3;
         private RibbonButton ribbonButton4;
-        private RibbonButton ribbonButton_form1;
+        private RibbonButton ribbonStudentsButton;
+        private RibbonButton ribbonTeachersButton;
+        private RibbonButton ribbonParentsButton;
+        private RibbonButton ribbonLessonsButton;
+        private RibbonSeparator ribbonSeparator2;
+        private RibbonSeparator ribbonSeparator3;
     }
 }
 

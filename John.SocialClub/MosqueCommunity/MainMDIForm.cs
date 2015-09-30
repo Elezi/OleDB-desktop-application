@@ -85,12 +85,12 @@ namespace MosqueCommunity
 
         }
 
-        private void ribbon1_Click(object sender, EventArgs e)
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void ribbonButton_form1_Click(object sender, EventArgs e)
+        private void ribbonStudentsButton_Click(object sender, EventArgs e)
         {
             foreach (Form f in this.MdiChildren)
             {
@@ -105,10 +105,50 @@ namespace MosqueCommunity
             studentsForm.Show();
         }
 
-        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        private void ribbonTeachersButton_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.GetType() == typeof(TeachersForm))
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+            Form teachersForm = new TeachersForm();
+            teachersForm.MdiParent = this;
+            teachersForm.Show();
         }
+
+        private void ribbonParentsButton_Click(object sender, EventArgs e)
+        {
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.GetType() == typeof(ParentsForm))
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+            Form parentsForm = new ParentsForm();
+            parentsForm.MdiParent = this;
+            parentsForm.Show();
+        }
+
+        private void ribbonLessonsButton_Click(object sender, EventArgs e)
+        {
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.GetType() == typeof(LessonsForm))
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+            Form lessonsForm = new LessonsForm();
+            lessonsForm.MdiParent = this;
+            lessonsForm.Show();
+        }        
 
     }
 }
