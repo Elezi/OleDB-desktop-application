@@ -54,5 +54,10 @@ namespace MosqueCommunity
         {
 
         }
+
+        private void ParentsForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
