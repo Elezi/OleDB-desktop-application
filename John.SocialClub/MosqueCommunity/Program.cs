@@ -16,7 +16,8 @@ namespace MosqueCommunity
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BaseForm());
+            Application.Run(new WelcomeScreen());
+            //Application.Run(new Form1());
         }
     }
 }
