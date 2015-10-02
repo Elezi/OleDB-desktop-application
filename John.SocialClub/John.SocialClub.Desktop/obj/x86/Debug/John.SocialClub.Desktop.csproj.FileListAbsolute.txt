@@ -13,7 +13,3 @@ C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John
 C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.csproj.GenerateResource.Cache
 C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.exe
 C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.pdb
-C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\bin\Debug\John.SocialClub.Desktop.exe.config
-C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.csproj.ResolveComReference.cache
-C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.exe
-C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.pdb
