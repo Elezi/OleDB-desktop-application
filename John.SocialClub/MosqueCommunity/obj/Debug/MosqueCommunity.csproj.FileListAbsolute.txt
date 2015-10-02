@@ -1,0 +1,15 @@
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\bin\Debug\MosqueCommunity.exe.config
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\bin\Debug\MosqueCommunity.exe
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\bin\Debug\MosqueCommunity.pdb
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\bin\Debug\System.Windows.Forms.Ribbon35.dll
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.csprojResolveAssemblyReference.cache
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.Properties.Resources.resources
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.StudentsForm.resources
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.csproj.GenerateResource.Cache
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.exe
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.pdb
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.MainMDIForm.resources
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.LessonsForm.resources
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.ParentsForm.resources
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.TeachersForm.resources
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.WelcomeScreen.resources

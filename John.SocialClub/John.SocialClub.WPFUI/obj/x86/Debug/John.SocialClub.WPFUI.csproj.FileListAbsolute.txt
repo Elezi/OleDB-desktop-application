@@ -19,3 +19,5 @@ C:\Documents and Settings\nn\My Documents\Visual Studio 2010\Projects\John.Socia
 C:\Documents and Settings\nn\My Documents\Visual Studio 2010\Projects\John.SocialClub VS 2010\John.SocialClub.WPFUI\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Documents and Settings\nn\My Documents\Visual Studio 2010\Projects\John.SocialClub VS 2010\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.exe
 C:\Documents and Settings\nn\My Documents\Visual Studio 2010\Projects\John.SocialClub VS 2010\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.pdb
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.exe
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.pdb

@@ -13,3 +13,25 @@ C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John
 C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.csproj.GenerateResource.Cache
 C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.exe
 C:\Users\Emtia\Downloads\Social_CLUB\SocialClub1\SocialClub\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\bin\Debug\John.SocialClub.Desktop.exe.config
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.csproj.ResolveComReference.cache
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.exe
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.pdb
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\bin\Debug\John.SocialClub.Desktop.exe.config
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\bin\Debug\John.SocialClub.Desktop.exe
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\bin\Debug\John.SocialClub.Desktop.pdb
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\bin\Debug\John.SocialClub.Data.dll
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\bin\Debug\EntityFramework.dll
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\bin\Debug\John.SocialClub.Data.pdb
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\bin\Debug\EntityFramework.xml
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.csprojResolveAssemblyReference.cache
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.csproj.ResolveComReference.cache
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.Forms.Membership.Manage.resources
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.Login.resources
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.Properties.Resources.resources
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.csproj.GenerateResource.Cache
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.exe
+E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.Desktop\obj\x86\Debug\John.SocialClub.Desktop.pdb
+>>>>>>> 692f4ba12d2232dba9d89453d52cd78a0d719497
