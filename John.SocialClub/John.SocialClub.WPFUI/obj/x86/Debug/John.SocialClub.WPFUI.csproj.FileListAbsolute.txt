@@ -21,3 +21,22 @@ C:\Documents and Settings\nn\My Documents\Visual Studio 2010\Projects\John.Socia
 C:\Documents and Settings\nn\My Documents\Visual Studio 2010\Projects\John.SocialClub VS 2010\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.pdb
 E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.exe
 E:\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.pdb
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\bin\Debug\John.SocialClub.WPFUI.exe
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\bin\Debug\John.SocialClub.WPFUI.pdb
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\bin\Debug\Fluent.dll
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\bin\Debug\Fluent.pdb
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\bin\Debug\Fluent.xml
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\FluentWindow.baml
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\MainWindow.baml
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\App.baml
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\FluentWindow.g.cs
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\App.g.cs
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI_MarkupCompile.cache
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.g.resources
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.Properties.Resources.resources
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.csproj.GenerateResource.Cache
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.exe
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\John.SocialClub.WPFUI\obj\x86\Debug\John.SocialClub.WPFUI.pdb

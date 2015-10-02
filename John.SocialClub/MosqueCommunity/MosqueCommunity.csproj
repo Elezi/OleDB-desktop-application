@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\MosqueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MosqueForm.Designer.cs">
+      <DependentUpon>MosqueForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainMDIForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,28 +62,28 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="LessonsForm.cs">
+    <Compile Include="Forms\LessonsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LessonsForm.Designer.cs">
+    <Compile Include="Forms\LessonsForm.Designer.cs">
       <DependentUpon>LessonsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ParentsForm.cs">
+    <Compile Include="Forms\ParentsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ParentsForm.Designer.cs">
+    <Compile Include="Forms\ParentsForm.Designer.cs">
       <DependentUpon>ParentsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="TeachersForm.cs">
+    <Compile Include="Forms\TeachersForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TeachersForm.Designer.cs">
+    <Compile Include="Forms\TeachersForm.Designer.cs">
       <DependentUpon>TeachersForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentsForm.cs">
+    <Compile Include="Forms\StudentsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentsForm.Designer.cs">
+    <Compile Include="Forms\StudentsForm.Designer.cs">
       <DependentUpon>StudentsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="WelcomeScreen.cs">
@@ -86,6 +92,9 @@
     <Compile Include="WelcomeScreen.Designer.cs">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\MosqueForm.resx">
+      <DependentUpon>MosqueForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainMDIForm.resx">
       <DependentUpon>MainMDIForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,16 +107,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="LessonsForm.resx">
+    <EmbeddedResource Include="Forms\LessonsForm.resx">
       <DependentUpon>LessonsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ParentsForm.resx">
+    <EmbeddedResource Include="Forms\ParentsForm.resx">
       <DependentUpon>ParentsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TeachersForm.resx">
+    <EmbeddedResource Include="Forms\TeachersForm.resx">
       <DependentUpon>TeachersForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentsForm.resx">
+    <EmbeddedResource Include="Forms\StudentsForm.resx">
       <DependentUpon>StudentsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomeScreen.resx">
@@ -135,6 +144,7 @@
     <Content Include="Images\Refresh.jpg" />
     <Content Include="Images\SaveAs.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
