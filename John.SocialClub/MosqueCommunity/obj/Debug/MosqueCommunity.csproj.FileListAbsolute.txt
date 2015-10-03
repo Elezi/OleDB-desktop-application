@@ -28,3 +28,4 @@ C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\Mosque
 C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.csproj.GenerateResource.Cache
 C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.exe
 C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.pdb
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.csprojResolveAssemblyReference.cache
