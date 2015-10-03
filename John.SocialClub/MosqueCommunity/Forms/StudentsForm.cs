@@ -69,5 +69,22 @@ namespace MosqueCommunity
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ContactInfoPanel.Visible = !ContactInfoPanel.Visible;
+            
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            ContactInfoPanel.Visible = checkBox1.Checked;
+            
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            panel4.Visible = checkBox2.Checked;
+        }
     }
 }

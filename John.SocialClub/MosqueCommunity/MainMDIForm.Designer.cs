@@ -70,6 +70,8 @@ namespace MosqueCommunity
             this.ribbonOrbMenuItem1 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonSeparator1 = new System.Windows.Forms.RibbonSeparator();
             this.ribbonOrbMenuItem2 = new System.Windows.Forms.RibbonOrbMenuItem();
+            this.ribbonSeparator2 = new System.Windows.Forms.RibbonSeparator();
+            this.ribbonSeparator3 = new System.Windows.Forms.RibbonSeparator();
             this.ribbonOrbOptionButton1 = new System.Windows.Forms.RibbonOrbOptionButton();
             this.ribbonOrbRecentItem1 = new System.Windows.Forms.RibbonOrbRecentItem();
             this.ribbonOrbRecentItem2 = new System.Windows.Forms.RibbonOrbRecentItem();
@@ -93,8 +95,6 @@ namespace MosqueCommunity
             this.ribbonCheckBox1 = new System.Windows.Forms.RibbonCheckBox();
             this.ribbonButton3 = new System.Windows.Forms.RibbonButton();
             this.ribbonButton4 = new System.Windows.Forms.RibbonButton();
-            this.ribbonSeparator2 = new System.Windows.Forms.RibbonSeparator();
-            this.ribbonSeparator3 = new System.Windows.Forms.RibbonSeparator();
             this.grpbxRegisterMembers.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,8 +104,8 @@ namespace MosqueCommunity
             | System.Windows.Forms.AnchorStyles.Left)));
             this.trvwMainTree.ImageIndex = 0;
             this.trvwMainTree.ImageList = this.imgLstTreeview;
-            this.trvwMainTree.Location = new System.Drawing.Point(11, 160);
-            this.trvwMainTree.Margin = new System.Windows.Forms.Padding(2);
+            this.trvwMainTree.Location = new System.Drawing.Point(15, 197);
+            this.trvwMainTree.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.trvwMainTree.Name = "trvwMainTree";
             treeNode1.Name = "ndRegister";
             treeNode1.Text = "Register";
@@ -136,7 +136,7 @@ namespace MosqueCommunity
             this.trvwMainTree.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode13});
             this.trvwMainTree.SelectedImageIndex = 0;
-            this.trvwMainTree.Size = new System.Drawing.Size(269, 311);
+            this.trvwMainTree.Size = new System.Drawing.Size(357, 382);
             this.trvwMainTree.TabIndex = 0;
             this.trvwMainTree.Visible = false;
             this.trvwMainTree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.trvwMainTree_AfterSelect);
@@ -153,11 +153,11 @@ namespace MosqueCommunity
             this.grpbxMembers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.grpbxMembers.Location = new System.Drawing.Point(298, 188);
-            this.grpbxMembers.Margin = new System.Windows.Forms.Padding(2);
+            this.grpbxMembers.Location = new System.Drawing.Point(397, 231);
+            this.grpbxMembers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbxMembers.Name = "grpbxMembers";
-            this.grpbxMembers.Padding = new System.Windows.Forms.Padding(2);
-            this.grpbxMembers.Size = new System.Drawing.Size(542, 241);
+            this.grpbxMembers.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpbxMembers.Size = new System.Drawing.Size(723, 297);
             this.grpbxMembers.TabIndex = 1;
             this.grpbxMembers.TabStop = false;
             this.grpbxMembers.Text = "Members";
@@ -169,11 +169,11 @@ namespace MosqueCommunity
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grpbxRegisterMembers.Controls.Add(this.grpbxReportMembers);
-            this.grpbxRegisterMembers.Location = new System.Drawing.Point(294, 208);
-            this.grpbxRegisterMembers.Margin = new System.Windows.Forms.Padding(2);
+            this.grpbxRegisterMembers.Location = new System.Drawing.Point(392, 256);
+            this.grpbxRegisterMembers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbxRegisterMembers.Name = "grpbxRegisterMembers";
-            this.grpbxRegisterMembers.Padding = new System.Windows.Forms.Padding(2);
-            this.grpbxRegisterMembers.Size = new System.Drawing.Size(542, 225);
+            this.grpbxRegisterMembers.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpbxRegisterMembers.Size = new System.Drawing.Size(723, 277);
             this.grpbxRegisterMembers.TabIndex = 2;
             this.grpbxRegisterMembers.TabStop = false;
             this.grpbxRegisterMembers.Text = "Register Members";
@@ -185,11 +185,11 @@ namespace MosqueCommunity
             this.grpbxReportMembers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.grpbxReportMembers.Location = new System.Drawing.Point(0, 31);
-            this.grpbxReportMembers.Margin = new System.Windows.Forms.Padding(2);
+            this.grpbxReportMembers.Location = new System.Drawing.Point(0, 38);
+            this.grpbxReportMembers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpbxReportMembers.Name = "grpbxReportMembers";
-            this.grpbxReportMembers.Padding = new System.Windows.Forms.Padding(2);
-            this.grpbxReportMembers.Size = new System.Drawing.Size(542, 271);
+            this.grpbxReportMembers.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpbxReportMembers.Size = new System.Drawing.Size(723, 334);
             this.grpbxReportMembers.TabIndex = 3;
             this.grpbxReportMembers.TabStop = false;
             this.grpbxReportMembers.Text = "Report Members";
@@ -199,6 +199,7 @@ namespace MosqueCommunity
             // 
             this.ribbon1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ribbon1.Location = new System.Drawing.Point(0, 0);
+            this.ribbon1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ribbon1.Minimized = false;
             this.ribbon1.Name = "ribbon1";
             // 
@@ -226,13 +227,13 @@ namespace MosqueCommunity
             this.ribbon1.QuickAcessToolbar.Items.Add(this.ribbonButton1);
             this.ribbon1.QuickAcessToolbar.Items.Add(this.ribbonButton2);
             this.ribbon1.RibbonTabFont = new System.Drawing.Font("Trebuchet MS", 9F);
-            this.ribbon1.Size = new System.Drawing.Size(848, 150);
+            this.ribbon1.Size = new System.Drawing.Size(1131, 185);
             this.ribbon1.TabIndex = 3;
             this.ribbon1.Tabs.Add(this.ribbonTab1);
             this.ribbon1.Tabs.Add(this.ribbonTab2);
             this.ribbon1.TabsMargin = new System.Windows.Forms.Padding(12, 26, 20, 0);
             this.ribbon1.Text = "Mosque";
-            this.ribbon1.ThemeColor = System.Windows.Forms.RibbonTheme.Blue;            
+            this.ribbon1.ThemeColor = System.Windows.Forms.RibbonTheme.Blue;
             // 
             // ribbonOrbMenuItem1
             // 
@@ -384,19 +385,20 @@ namespace MosqueCommunity
             // 
             // MainMDIForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(848, 482);
+            this.ClientSize = new System.Drawing.Size(1131, 593);
             this.Controls.Add(this.ribbon1);
             this.Controls.Add(this.grpbxRegisterMembers);
             this.Controls.Add(this.grpbxMembers);
             this.Controls.Add(this.trvwMainTree);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MainMDIForm";
             this.Text = "Community Software";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.grpbxRegisterMembers.ResumeLayout(false);
             this.ResumeLayout(false);
