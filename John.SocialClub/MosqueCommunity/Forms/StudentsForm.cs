@@ -86,5 +86,17 @@ namespace MosqueCommunity
         {
             panel4.Visible = checkBox2.Checked;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var studentRegistrationForm = new StudentRegistration();
+            studentRegistrationForm.Show();
+
+        }
+
+        private void panel1_MouseHover(object sender, EventArgs e)
+        {
+
+        }
     }
 }
