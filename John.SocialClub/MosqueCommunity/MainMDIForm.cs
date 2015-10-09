@@ -100,9 +100,11 @@ namespace MosqueCommunity
                     return;
                 }
             }
-            Form studentsForm = new StudentsForm();
+            var studentsForm = new StudentsForm();
             studentsForm.MdiParent = this;
+            studentsForm.tabControl1.Visible = false;
             studentsForm.Show();
+
         }
 
         private void ribbonTeachersButton_Click(object sender, EventArgs e)
