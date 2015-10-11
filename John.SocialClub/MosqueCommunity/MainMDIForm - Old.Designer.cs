@@ -35,46 +35,112 @@ namespace MosqueCommunity
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Register");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Report");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Members", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2});
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Friday Preaches");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Compose Preach");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Hadith Pool");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Preaching", new System.Windows.Forms.TreeNode[] {
+            treeNode4,
+            treeNode5,
+            treeNode6});
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Purchases");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Due Payments");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Balance Sheet");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("General Report");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Accounting", new System.Windows.Forms.TreeNode[] {
+            treeNode8,
+            treeNode9,
+            treeNode10,
+            treeNode11});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Start", new System.Windows.Forms.TreeNode[] {
+            treeNode3,
+            treeNode7,
+            treeNode12});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMDIForm));
+            this.trvwMainTree = new System.Windows.Forms.TreeView();
             this.imgLstTreeview = new System.Windows.Forms.ImageList(this.components);
+            this.grpbxMembers = new System.Windows.Forms.GroupBox();
+            this.grpbxRegisterMembers = new System.Windows.Forms.GroupBox();
+            this.grpbxReportMembers = new System.Windows.Forms.GroupBox();
             this.ribbon1 = new System.Windows.Forms.Ribbon();
+            this.ribbonOrbMenuItem1 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonSeparator1 = new System.Windows.Forms.RibbonSeparator();
+            this.ribbonOrbMenuItem2 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonSeparator2 = new System.Windows.Forms.RibbonSeparator();
             this.ribbonSeparator3 = new System.Windows.Forms.RibbonSeparator();
-            this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
-            this.ribbonPanel1 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
-            this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonComboBox1 = new System.Windows.Forms.RibbonComboBox();
-            this.ribbonPanel4 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonCheckBox1 = new System.Windows.Forms.RibbonCheckBox();
-            this.ribbonOrbMenuItem1 = new System.Windows.Forms.RibbonOrbMenuItem();
-            this.ribbonOrbMenuItem2 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonOrbOptionButton1 = new System.Windows.Forms.RibbonOrbOptionButton();
             this.ribbonOrbRecentItem1 = new System.Windows.Forms.RibbonOrbRecentItem();
             this.ribbonOrbRecentItem2 = new System.Windows.Forms.RibbonOrbRecentItem();
             this.ribbonOrbRecentItem3 = new System.Windows.Forms.RibbonOrbRecentItem();
             this.ribbonButton1 = new System.Windows.Forms.RibbonButton();
             this.ribbonButton2 = new System.Windows.Forms.RibbonButton();
+            this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel1 = new System.Windows.Forms.RibbonPanel();
             this.ribbonStudentsButton = new System.Windows.Forms.RibbonButton();
             this.ribbonTeachersButton = new System.Windows.Forms.RibbonButton();
             this.ribbonParentsButton = new System.Windows.Forms.RibbonButton();
             this.ribbonLessonsButton = new System.Windows.Forms.RibbonButton();
+            this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
             this.ribbonButton5 = new System.Windows.Forms.RibbonButton();
             this.ribbonButton6 = new System.Windows.Forms.RibbonButton();
             this.ribbonButton7 = new System.Windows.Forms.RibbonButton();
+            this.ribbonComboBox1 = new System.Windows.Forms.RibbonComboBox();
+            this.ribbonPanel4 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonCheckBox1 = new System.Windows.Forms.RibbonCheckBox();
             this.ribbonButton3 = new System.Windows.Forms.RibbonButton();
             this.ribbonButton4 = new System.Windows.Forms.RibbonButton();
-            this.ribbonPanelNewItem = new System.Windows.Forms.RibbonPanel();
-            this.NewItemButtonList = new System.Windows.Forms.RibbonButtonList();
-            this.ribbonButtonNewStudent = new System.Windows.Forms.RibbonButton();
-            this.ribbonButtonNewParent = new System.Windows.Forms.RibbonButton();
-            this.ribbonButtonNewMosque = new System.Windows.Forms.RibbonButton();
-            this.ribbonButtonNewMember = new System.Windows.Forms.RibbonButton();
-            this.ribbonButtonNewContributor = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton8 = new System.Windows.Forms.RibbonButton();
+            this.grpbxRegisterMembers.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // trvwMainTree
+            // 
+            this.trvwMainTree.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.trvwMainTree.ImageIndex = 0;
+            this.trvwMainTree.ImageList = this.imgLstTreeview;
+            this.trvwMainTree.Location = new System.Drawing.Point(15, 197);
+            this.trvwMainTree.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.trvwMainTree.Name = "trvwMainTree";
+            treeNode1.Name = "ndRegister";
+            treeNode1.Text = "Register";
+            treeNode2.Name = "ndReport";
+            treeNode2.Text = "Report";
+            treeNode3.Name = "ndMember";
+            treeNode3.Text = "Members";
+            treeNode4.Name = "ndFridayPreaches";
+            treeNode4.Text = "Friday Preaches";
+            treeNode5.Name = "ndComposePreach";
+            treeNode5.Text = "Compose Preach";
+            treeNode6.Name = "ndHadithPool";
+            treeNode6.Text = "Hadith Pool";
+            treeNode7.Name = "ndPreach";
+            treeNode7.Text = "Preaching";
+            treeNode8.Name = "ndPurchases";
+            treeNode8.Text = "Purchases";
+            treeNode9.Name = "ndPayments";
+            treeNode9.Text = "Due Payments";
+            treeNode10.Name = "ndBalanceSheet";
+            treeNode10.Text = "Balance Sheet";
+            treeNode11.Name = "ndGeneralReport";
+            treeNode11.Text = "General Report";
+            treeNode12.Name = "ndAccounting";
+            treeNode12.Text = "Accounting";
+            treeNode13.Name = "ndStart";
+            treeNode13.Text = "Start";
+            this.trvwMainTree.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode13});
+            this.trvwMainTree.SelectedImageIndex = 0;
+            this.trvwMainTree.Size = new System.Drawing.Size(357, 382);
+            this.trvwMainTree.TabIndex = 0;
+            this.trvwMainTree.Visible = false;
+            this.trvwMainTree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.trvwMainTree_AfterSelect);
+            this.trvwMainTree.Click += new System.EventHandler(this.trvwMainTree_Click);
             // 
             // imgLstTreeview
             // 
@@ -82,11 +148,58 @@ namespace MosqueCommunity
             this.imgLstTreeview.TransparentColor = System.Drawing.Color.Transparent;
             this.imgLstTreeview.Images.SetKeyName(0, "Folder.jpg");
             // 
+            // grpbxMembers
+            // 
+            this.grpbxMembers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.grpbxMembers.Location = new System.Drawing.Point(397, 231);
+            this.grpbxMembers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpbxMembers.Name = "grpbxMembers";
+            this.grpbxMembers.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpbxMembers.Size = new System.Drawing.Size(723, 297);
+            this.grpbxMembers.TabIndex = 1;
+            this.grpbxMembers.TabStop = false;
+            this.grpbxMembers.Text = "Members";
+            this.grpbxMembers.Visible = false;
+            // 
+            // grpbxRegisterMembers
+            // 
+            this.grpbxRegisterMembers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.grpbxRegisterMembers.Controls.Add(this.grpbxReportMembers);
+            this.grpbxRegisterMembers.Location = new System.Drawing.Point(392, 256);
+            this.grpbxRegisterMembers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpbxRegisterMembers.Name = "grpbxRegisterMembers";
+            this.grpbxRegisterMembers.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpbxRegisterMembers.Size = new System.Drawing.Size(723, 277);
+            this.grpbxRegisterMembers.TabIndex = 2;
+            this.grpbxRegisterMembers.TabStop = false;
+            this.grpbxRegisterMembers.Text = "Register Members";
+            this.grpbxRegisterMembers.Visible = false;
+            this.grpbxRegisterMembers.Enter += new System.EventHandler(this.grpbxRegisterMembers_Enter);
+            // 
+            // grpbxReportMembers
+            // 
+            this.grpbxReportMembers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.grpbxReportMembers.Location = new System.Drawing.Point(0, 38);
+            this.grpbxReportMembers.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpbxReportMembers.Name = "grpbxReportMembers";
+            this.grpbxReportMembers.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpbxReportMembers.Size = new System.Drawing.Size(723, 334);
+            this.grpbxReportMembers.TabIndex = 3;
+            this.grpbxReportMembers.TabStop = false;
+            this.grpbxReportMembers.Text = "Report Members";
+            this.grpbxReportMembers.Visible = false;
+            // 
             // ribbon1
             // 
             this.ribbon1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ribbon1.Location = new System.Drawing.Point(0, 0);
-            this.ribbon1.Margin = new System.Windows.Forms.Padding(4);
+            this.ribbon1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ribbon1.Minimized = false;
             this.ribbon1.Name = "ribbon1";
             // 
@@ -121,47 +234,6 @@ namespace MosqueCommunity
             this.ribbon1.TabsMargin = new System.Windows.Forms.Padding(12, 26, 20, 0);
             this.ribbon1.Text = "Mosque";
             this.ribbon1.ThemeColor = System.Windows.Forms.RibbonTheme.Blue;
-            // 
-            // ribbonTab1
-            // 
-            this.ribbonTab1.Panels.Add(this.ribbonPanel1);
-            this.ribbonTab1.Panels.Add(this.ribbonPanel2);
-            this.ribbonTab1.Panels.Add(this.ribbonPanelNewItem);
-            this.ribbonTab1.Text = "Units";
-            // 
-            // ribbonPanel1
-            // 
-            this.ribbonPanel1.Items.Add(this.ribbonStudentsButton);
-            this.ribbonPanel1.Items.Add(this.ribbonTeachersButton);
-            this.ribbonPanel1.Items.Add(this.ribbonParentsButton);
-            this.ribbonPanel1.Items.Add(this.ribbonLessonsButton);
-            this.ribbonPanel1.Text = "Madrasah";
-            // 
-            // ribbonPanel2
-            // 
-            this.ribbonPanel2.Text = "Prayers";
-            // 
-            // ribbonTab2
-            // 
-            this.ribbonTab2.Panels.Add(this.ribbonPanel3);
-            this.ribbonTab2.Panels.Add(this.ribbonPanel4);
-            this.ribbonTab2.Text = "Activities";
-            // 
-            // ribbonPanel3
-            // 
-            this.ribbonPanel3.Items.Add(this.ribbonButton5);
-            this.ribbonPanel3.Items.Add(this.ribbonButton6);
-            this.ribbonPanel3.Items.Add(this.ribbonButton7);
-            this.ribbonPanel3.Items.Add(this.ribbonComboBox1);
-            this.ribbonPanel3.Text = "Membership";
-            // 
-            // ribbonComboBox1
-            // 
-            this.ribbonComboBox1.TextBoxText = "";
-            // 
-            // ribbonPanel4
-            // 
-            this.ribbonPanel4.Text = "Zakat";
             // 
             // ribbonOrbMenuItem1
             // 
@@ -215,6 +287,20 @@ namespace MosqueCommunity
             this.ribbonButton2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton2.SmallImage")));
             this.ribbonButton2.Text = "ribbonButton2";
             // 
+            // ribbonTab1
+            // 
+            this.ribbonTab1.Panels.Add(this.ribbonPanel1);
+            this.ribbonTab1.Panels.Add(this.ribbonPanel2);
+            this.ribbonTab1.Text = "Units";
+            // 
+            // ribbonPanel1
+            // 
+            this.ribbonPanel1.Items.Add(this.ribbonStudentsButton);
+            this.ribbonPanel1.Items.Add(this.ribbonTeachersButton);
+            this.ribbonPanel1.Items.Add(this.ribbonParentsButton);
+            this.ribbonPanel1.Items.Add(this.ribbonLessonsButton);
+            this.ribbonPanel1.Text = "Madrasah";
+            // 
             // ribbonStudentsButton
             // 
             this.ribbonStudentsButton.Image = ((System.Drawing.Image)(resources.GetObject("ribbonStudentsButton.Image")));
@@ -243,6 +329,24 @@ namespace MosqueCommunity
             this.ribbonLessonsButton.Text = "Lessons";
             this.ribbonLessonsButton.Click += new System.EventHandler(this.ribbonLessonsButton_Click);
             // 
+            // ribbonPanel2
+            // 
+            this.ribbonPanel2.Text = "Prayers";
+            // 
+            // ribbonTab2
+            // 
+            this.ribbonTab2.Panels.Add(this.ribbonPanel3);
+            this.ribbonTab2.Panels.Add(this.ribbonPanel4);
+            this.ribbonTab2.Text = "Activities";
+            // 
+            // ribbonPanel3
+            // 
+            this.ribbonPanel3.Items.Add(this.ribbonButton5);
+            this.ribbonPanel3.Items.Add(this.ribbonButton6);
+            this.ribbonPanel3.Items.Add(this.ribbonButton7);
+            this.ribbonPanel3.Items.Add(this.ribbonComboBox1);
+            this.ribbonPanel3.Text = "Membership";
+            // 
             // ribbonButton5
             // 
             this.ribbonButton5.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.Image")));
@@ -261,6 +365,14 @@ namespace MosqueCommunity
             this.ribbonButton7.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.SmallImage")));
             this.ribbonButton7.Text = "Event";
             // 
+            // ribbonComboBox1
+            // 
+            this.ribbonComboBox1.TextBoxText = "";
+            // 
+            // ribbonPanel4
+            // 
+            this.ribbonPanel4.Text = "Zakat";
+            // 
             // ribbonButton3
             // 
             this.ribbonButton3.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton3.Image")));
@@ -271,53 +383,6 @@ namespace MosqueCommunity
             this.ribbonButton4.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.Image")));
             this.ribbonButton4.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.SmallImage")));
             // 
-            // ribbonPanelNewItem
-            // 
-            this.ribbonPanelNewItem.Items.Add(this.NewItemButtonList);
-            this.ribbonPanelNewItem.Text = "New Item";
-            // 
-            // NewItemButtonList
-            // 
-            this.NewItemButtonList.Buttons.Add(this.ribbonButtonNewStudent);
-            this.NewItemButtonList.Buttons.Add(this.ribbonButtonNewParent);
-            this.NewItemButtonList.Buttons.Add(this.ribbonButtonNewMosque);
-            this.NewItemButtonList.Buttons.Add(this.ribbonButtonNewMember);
-            this.NewItemButtonList.Buttons.Add(this.ribbonButtonNewContributor);
-            this.NewItemButtonList.Buttons.Add(this.ribbonButton8);
-            this.NewItemButtonList.ButtonsSizeMode = System.Windows.Forms.RibbonElementSizeMode.Large;
-            this.NewItemButtonList.FlowToBottom = false;
-            this.NewItemButtonList.ItemsSizeInDropwDownMode = new System.Drawing.Size(7, 5);
-            // 
-            // ribbonButtonNewStudent
-            // 
-            this.ribbonButtonNewStudent.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewStudent.Image")));
-            this.ribbonButtonNewStudent.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewStudent.SmallImage")));
-            // 
-            // ribbonButtonNewParent
-            // 
-            this.ribbonButtonNewParent.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewParent.Image")));
-            this.ribbonButtonNewParent.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewParent.SmallImage")));
-            // 
-            // ribbonButtonNewMosque
-            // 
-            this.ribbonButtonNewMosque.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewMosque.Image")));
-            this.ribbonButtonNewMosque.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewMosque.SmallImage")));
-            // 
-            // ribbonButtonNewMember
-            // 
-            this.ribbonButtonNewMember.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewMember.Image")));
-            this.ribbonButtonNewMember.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewMember.SmallImage")));
-            // 
-            // ribbonButtonNewContributor
-            // 
-            this.ribbonButtonNewContributor.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewContributor.Image")));
-            this.ribbonButtonNewContributor.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewContributor.SmallImage")));
-            // 
-            // ribbonButton8
-            // 
-            this.ribbonButton8.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton8.Image")));
-            this.ribbonButton8.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton8.SmallImage")));
-            // 
             // MainMDIForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -325,6 +390,9 @@ namespace MosqueCommunity
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1131, 593);
             this.Controls.Add(this.ribbon1);
+            this.Controls.Add(this.grpbxRegisterMembers);
+            this.Controls.Add(this.grpbxMembers);
+            this.Controls.Add(this.trvwMainTree);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -332,6 +400,7 @@ namespace MosqueCommunity
             this.Text = "Community Software";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.grpbxRegisterMembers.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -340,6 +409,10 @@ namespace MosqueCommunity
 
         #endregion
 
+        private System.Windows.Forms.TreeView trvwMainTree;
+        private System.Windows.Forms.GroupBox grpbxMembers;
+        private System.Windows.Forms.GroupBox grpbxRegisterMembers;
+        private System.Windows.Forms.GroupBox grpbxReportMembers;
         private System.Windows.Forms.ImageList imgLstTreeview;
         private Ribbon ribbon1;
         private RibbonOrbMenuItem ribbonOrbMenuItem1;
@@ -370,14 +443,6 @@ namespace MosqueCommunity
         private RibbonButton ribbonLessonsButton;
         private RibbonSeparator ribbonSeparator2;
         private RibbonSeparator ribbonSeparator3;
-        private RibbonPanel ribbonPanelNewItem;
-        private RibbonButtonList NewItemButtonList;
-        private RibbonButton ribbonButtonNewStudent;
-        private RibbonButton ribbonButtonNewParent;
-        private RibbonButton ribbonButtonNewMosque;
-        private RibbonButton ribbonButtonNewMember;
-        private RibbonButton ribbonButtonNewContributor;
-        private RibbonButton ribbonButton8;
     }
 }
 
