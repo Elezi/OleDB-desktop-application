@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace MosqueCommunity
 {
-    public partial class MainMDIForm : Form
+    public partial class MainMDIFormOld : Form
     {
         Dictionary<TreeNode, GroupBox> showControls;
-        public MainMDIForm()
+        public MainMDIFormOld()
         {
             InitializeComponent();
             showControls = new Dictionary<TreeNode, GroupBox>();

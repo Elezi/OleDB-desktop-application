@@ -38,34 +38,24 @@ namespace MosqueCommunity
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMDIForm));
             this.imgLstTreeview = new System.Windows.Forms.ImageList(this.components);
             this.ribbon1 = new System.Windows.Forms.Ribbon();
+            this.ribbonOrbMenuItem1 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonSeparator1 = new System.Windows.Forms.RibbonSeparator();
+            this.ribbonOrbMenuItem2 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonSeparator2 = new System.Windows.Forms.RibbonSeparator();
             this.ribbonSeparator3 = new System.Windows.Forms.RibbonSeparator();
-            this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
-            this.ribbonPanel1 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
-            this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonComboBox1 = new System.Windows.Forms.RibbonComboBox();
-            this.ribbonPanel4 = new System.Windows.Forms.RibbonPanel();
-            this.ribbonCheckBox1 = new System.Windows.Forms.RibbonCheckBox();
-            this.ribbonOrbMenuItem1 = new System.Windows.Forms.RibbonOrbMenuItem();
-            this.ribbonOrbMenuItem2 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonOrbOptionButton1 = new System.Windows.Forms.RibbonOrbOptionButton();
             this.ribbonOrbRecentItem1 = new System.Windows.Forms.RibbonOrbRecentItem();
             this.ribbonOrbRecentItem2 = new System.Windows.Forms.RibbonOrbRecentItem();
             this.ribbonOrbRecentItem3 = new System.Windows.Forms.RibbonOrbRecentItem();
             this.ribbonButton1 = new System.Windows.Forms.RibbonButton();
             this.ribbonButton2 = new System.Windows.Forms.RibbonButton();
+            this.ribbonTab1 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel1 = new System.Windows.Forms.RibbonPanel();
             this.ribbonStudentsButton = new System.Windows.Forms.RibbonButton();
             this.ribbonTeachersButton = new System.Windows.Forms.RibbonButton();
             this.ribbonParentsButton = new System.Windows.Forms.RibbonButton();
             this.ribbonLessonsButton = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton5 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton6 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton7 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton3 = new System.Windows.Forms.RibbonButton();
-            this.ribbonButton4 = new System.Windows.Forms.RibbonButton();
+            this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
             this.ribbonPanelNewItem = new System.Windows.Forms.RibbonPanel();
             this.NewItemButtonList = new System.Windows.Forms.RibbonButtonList();
             this.ribbonButtonNewStudent = new System.Windows.Forms.RibbonButton();
@@ -74,6 +64,16 @@ namespace MosqueCommunity
             this.ribbonButtonNewMember = new System.Windows.Forms.RibbonButton();
             this.ribbonButtonNewContributor = new System.Windows.Forms.RibbonButton();
             this.ribbonButton8 = new System.Windows.Forms.RibbonButton();
+            this.ribbonTab2 = new System.Windows.Forms.RibbonTab();
+            this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonButton5 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton6 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton7 = new System.Windows.Forms.RibbonButton();
+            this.ribbonComboBox1 = new System.Windows.Forms.RibbonComboBox();
+            this.ribbonPanel4 = new System.Windows.Forms.RibbonPanel();
+            this.ribbonCheckBox1 = new System.Windows.Forms.RibbonCheckBox();
+            this.ribbonButton3 = new System.Windows.Forms.RibbonButton();
+            this.ribbonButton4 = new System.Windows.Forms.RibbonButton();
             this.SuspendLayout();
             // 
             // imgLstTreeview
@@ -121,47 +121,6 @@ namespace MosqueCommunity
             this.ribbon1.TabsMargin = new System.Windows.Forms.Padding(12, 26, 20, 0);
             this.ribbon1.Text = "Mosque";
             this.ribbon1.ThemeColor = System.Windows.Forms.RibbonTheme.Blue;
-            // 
-            // ribbonTab1
-            // 
-            this.ribbonTab1.Panels.Add(this.ribbonPanel1);
-            this.ribbonTab1.Panels.Add(this.ribbonPanel2);
-            this.ribbonTab1.Panels.Add(this.ribbonPanelNewItem);
-            this.ribbonTab1.Text = "Units";
-            // 
-            // ribbonPanel1
-            // 
-            this.ribbonPanel1.Items.Add(this.ribbonStudentsButton);
-            this.ribbonPanel1.Items.Add(this.ribbonTeachersButton);
-            this.ribbonPanel1.Items.Add(this.ribbonParentsButton);
-            this.ribbonPanel1.Items.Add(this.ribbonLessonsButton);
-            this.ribbonPanel1.Text = "Madrasah";
-            // 
-            // ribbonPanel2
-            // 
-            this.ribbonPanel2.Text = "Prayers";
-            // 
-            // ribbonTab2
-            // 
-            this.ribbonTab2.Panels.Add(this.ribbonPanel3);
-            this.ribbonTab2.Panels.Add(this.ribbonPanel4);
-            this.ribbonTab2.Text = "Activities";
-            // 
-            // ribbonPanel3
-            // 
-            this.ribbonPanel3.Items.Add(this.ribbonButton5);
-            this.ribbonPanel3.Items.Add(this.ribbonButton6);
-            this.ribbonPanel3.Items.Add(this.ribbonButton7);
-            this.ribbonPanel3.Items.Add(this.ribbonComboBox1);
-            this.ribbonPanel3.Text = "Membership";
-            // 
-            // ribbonComboBox1
-            // 
-            this.ribbonComboBox1.TextBoxText = "";
-            // 
-            // ribbonPanel4
-            // 
-            this.ribbonPanel4.Text = "Zakat";
             // 
             // ribbonOrbMenuItem1
             // 
@@ -215,6 +174,21 @@ namespace MosqueCommunity
             this.ribbonButton2.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton2.SmallImage")));
             this.ribbonButton2.Text = "ribbonButton2";
             // 
+            // ribbonTab1
+            // 
+            this.ribbonTab1.Panels.Add(this.ribbonPanel1);
+            this.ribbonTab1.Panels.Add(this.ribbonPanel2);
+            this.ribbonTab1.Panels.Add(this.ribbonPanelNewItem);
+            this.ribbonTab1.Text = "Units";
+            // 
+            // ribbonPanel1
+            // 
+            this.ribbonPanel1.Items.Add(this.ribbonStudentsButton);
+            this.ribbonPanel1.Items.Add(this.ribbonTeachersButton);
+            this.ribbonPanel1.Items.Add(this.ribbonParentsButton);
+            this.ribbonPanel1.Items.Add(this.ribbonLessonsButton);
+            this.ribbonPanel1.Text = "Madrasah";
+            // 
             // ribbonStudentsButton
             // 
             this.ribbonStudentsButton.Image = ((System.Drawing.Image)(resources.GetObject("ribbonStudentsButton.Image")));
@@ -243,33 +217,9 @@ namespace MosqueCommunity
             this.ribbonLessonsButton.Text = "Lessons";
             this.ribbonLessonsButton.Click += new System.EventHandler(this.ribbonLessonsButton_Click);
             // 
-            // ribbonButton5
+            // ribbonPanel2
             // 
-            this.ribbonButton5.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.Image")));
-            this.ribbonButton5.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.SmallImage")));
-            this.ribbonButton5.Text = "New Member";
-            // 
-            // ribbonButton6
-            // 
-            this.ribbonButton6.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.Image")));
-            this.ribbonButton6.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.SmallImage")));
-            this.ribbonButton6.Text = "Active Members";
-            // 
-            // ribbonButton7
-            // 
-            this.ribbonButton7.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.Image")));
-            this.ribbonButton7.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.SmallImage")));
-            this.ribbonButton7.Text = "Event";
-            // 
-            // ribbonButton3
-            // 
-            this.ribbonButton3.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton3.Image")));
-            this.ribbonButton3.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton3.SmallImage")));
-            // 
-            // ribbonButton4
-            // 
-            this.ribbonButton4.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.Image")));
-            this.ribbonButton4.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.SmallImage")));
+            this.ribbonPanel2.Text = "Prayers";
             // 
             // ribbonPanelNewItem
             // 
@@ -313,10 +263,55 @@ namespace MosqueCommunity
             this.ribbonButtonNewContributor.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewContributor.Image")));
             this.ribbonButtonNewContributor.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButtonNewContributor.SmallImage")));
             // 
-            // ribbonButton8
+            // ribbonTab2
             // 
-            this.ribbonButton8.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton8.Image")));
-            this.ribbonButton8.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton8.SmallImage")));
+            this.ribbonTab2.Panels.Add(this.ribbonPanel3);
+            this.ribbonTab2.Panels.Add(this.ribbonPanel4);
+            this.ribbonTab2.Text = "Activities";
+            // 
+            // ribbonPanel3
+            // 
+            this.ribbonPanel3.Items.Add(this.ribbonButton5);
+            this.ribbonPanel3.Items.Add(this.ribbonButton6);
+            this.ribbonPanel3.Items.Add(this.ribbonButton7);
+            this.ribbonPanel3.Items.Add(this.ribbonComboBox1);
+            this.ribbonPanel3.Text = "Membership";
+            // 
+            // ribbonButton5
+            // 
+            this.ribbonButton5.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.Image")));
+            this.ribbonButton5.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton5.SmallImage")));
+            this.ribbonButton5.Text = "New Member";
+            // 
+            // ribbonButton6
+            // 
+            this.ribbonButton6.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.Image")));
+            this.ribbonButton6.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton6.SmallImage")));
+            this.ribbonButton6.Text = "Active Members";
+            // 
+            // ribbonButton7
+            // 
+            this.ribbonButton7.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.Image")));
+            this.ribbonButton7.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton7.SmallImage")));
+            this.ribbonButton7.Text = "Event";
+            // 
+            // ribbonComboBox1
+            // 
+            this.ribbonComboBox1.TextBoxText = "";
+            // 
+            // ribbonPanel4
+            // 
+            this.ribbonPanel4.Text = "Zakat";
+            // 
+            // ribbonButton3
+            // 
+            this.ribbonButton3.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton3.Image")));
+            this.ribbonButton3.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton3.SmallImage")));
+            // 
+            // ribbonButton4
+            // 
+            this.ribbonButton4.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.Image")));
+            this.ribbonButton4.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton4.SmallImage")));
             // 
             // MainMDIForm
             // 

@@ -29,8 +29,7 @@ C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\Mosque
 C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.exe
 C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.pdb
 C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.csprojResolveAssemblyReference.cache
-<<<<<<< HEAD
-E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.Forms.MosqueForm.resources
 =======
+E:\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.Forms.MosqueForm.resources
 C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.StudentRegistration.resources
 >>>>>>> origin/master
