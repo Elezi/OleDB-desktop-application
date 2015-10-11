@@ -25,9 +25,9 @@ namespace MosqueCommunity
 
             // Add some elements to the dictionary. There are no  
             // duplicate keys, but some of the values are duplicates.
-            this.showControls.Add(this.trvwMainTree.Nodes.Find("ndRegister", true)[0], this.grpbxRegisterMembers);
-            this.showControls.Add(this.trvwMainTree.Nodes.Find("ndReport", true)[0], this.grpbxReportMembers);
-            this.showControls.Add(this.trvwMainTree.Nodes.Find("ndMember", true)[0], this.grpbxMembers);
+            //this.showControls.Add(this.trvwMainTree.Nodes.Find("ndRegister", true)[0], this.grpbxRegisterMembers);
+            //this.showControls.Add(this.trvwMainTree.Nodes.Find("ndReport", true)[0], this.grpbxReportMembers);
+            //this.showControls.Add(this.trvwMainTree.Nodes.Find("ndMember", true)[0], this.grpbxMembers);
         }
 
         private void trvwMainTree_Click(object sender, EventArgs e)
@@ -150,6 +150,11 @@ namespace MosqueCommunity
             Form lessonsForm = new LessonsForm();
             lessonsForm.MdiParent = this;
             lessonsForm.Show();
+        }
+
+        private void MainMDIForm_Load(object sender, EventArgs e)
+        {
+
         }        
 
     }
