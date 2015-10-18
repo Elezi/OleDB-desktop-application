@@ -131,6 +131,7 @@
     <EmbeddedResource Include="WelcomeScreen.resx">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Images\Splash screen.pdn" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -145,13 +146,51 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\27252589-Color-cube-logo-template-Stock-Vector-logo.jpg" />
+    <Content Include="Images\add-icon.png" />
+    <Content Include="Images\books-icon-48.png" />
+    <Content Include="Images\books-icon-512.png" />
     <Content Include="Images\Close.jpg" />
     <Content Include="Images\Cloud.jpg" />
+    <Content Include="Images\elementary_school.png" />
+    <Content Include="Images\elementary_school48.png" />
+    <Content Include="Images\elemetary_school_students.jpg" />
+    <Content Include="Images\elemetary_school_student_sample.jpg" />
     <Content Include="Images\Folder.jpg" />
+    <Content Include="Images\Gauss IT logo.png" />
+    <Content Include="Images\hossein-nasr.jpg" />
+    <Content Include="Images\icon2.png" />
+    <Content Include="Images\icon3.png" />
+    <Content Include="Images\icon4.png" />
+    <Content Include="Images\icon5.png" />
+    <Content Include="Images\icon6.png" />
+    <Content Include="Images\icon_ok.jpg" />
+    <Content Include="Images\icon_ok_48.jpg" />
     <Content Include="Images\inbox.jpg" />
+    <Content Include="Images\jnsjumahservicejpg.jpg" />
+    <Content Include="Images\lessons-icon.png" />
+    <Content Include="Images\lessons-icon_48.png" />
+    <Content Include="Images\market cube logo.png" />
+    <Content Include="Images\mosque-in-rijeka-croatia--19442.jpg" />
+    <Content Include="Images\mosque.jpg" />
+    <Content Include="Images\myftinija_tetoves.ico" />
+    <Content Include="Images\myftinija_tetoves.jpg" />
+    <Content Include="Images\myftinija_tetoves.png" />
+    <Content Include="Images\parents_icon.png" />
+    <Content Include="Images\parents_icon_48.png" />
     <Content Include="Images\properties.jpg" />
+    <Content Include="Images\properties_16.jpg" />
+    <Content Include="Images\properties_16.png" />
     <Content Include="Images\Refresh.jpg" />
     <Content Include="Images\SaveAs.jpg" />
+    <Content Include="Images\SaveAs_16.jpg" />
+    <Content Include="Images\SaveAs_16.png" />
+    <Content Include="Images\school.jpg" />
+    <Content Include="Images\Splash screen.png" />
+    <Content Include="Images\teacher_icon.png" />
+    <Content Include="Images\teacher_icon_48.png" />
+    <Content Include="Images\User_icon1.png" />
+    <Content Include="Images\Welcome.jpg" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
