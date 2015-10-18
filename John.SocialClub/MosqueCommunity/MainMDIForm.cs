@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MosqueCommunity.Forms;
+
 
 namespace MosqueCommunity
 {
@@ -155,6 +157,24 @@ namespace MosqueCommunity
         private void MainMDIForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void ribbonButtonNewStudent_Click(object sender, EventArgs e)
+        {
+            var studentResigrationForm = new StudentRegistration();
+            studentResigrationForm.Show();
+        }
+
+        private void ribbonButtonNewMember_Click(object sender, EventArgs e)
+        {
+            var newMemberForm = new CreateNewMember();
+            newMemberForm.Show();
+        }
+
+        private void ribbonButtonNewContributor_Click(object sender, EventArgs e)
+        {
+            var newContributorForm = new CreateNewContributor();
+            newContributorForm.Show();
         }        
 
     }

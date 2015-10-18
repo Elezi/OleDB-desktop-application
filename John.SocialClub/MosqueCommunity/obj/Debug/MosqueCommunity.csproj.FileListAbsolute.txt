@@ -30,3 +30,5 @@ C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\Mosque
 C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.pdb
 C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.StudentRegistration.resources
 C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.csprojResolveAssemblyReference.cache
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.Forms.CreateNewContributor.resources
+C:\Users\Emtia\Documents\GitHub\OleDB-desktop-application\John.SocialClub\MosqueCommunity\obj\Debug\MosqueCommunity.Forms.CreateNewMember.resources
