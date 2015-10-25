@@ -104,7 +104,7 @@ namespace MosqueCommunity
             }
             var studentsForm = new StudentsForm();
             studentsForm.MdiParent = this;
-            studentsForm.tabControl1.Visible = false;
+            //studentsForm.tabControl1.Visible = false;
             studentsForm.Show();
 
         }
