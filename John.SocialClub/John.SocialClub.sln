@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "John.SocialClub.WPFUI", "Jo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosqueCommunity.Data", "MosqueCommunity.Data\MosqueCommunity.Data.csproj", "{C72B43D9-25FF-4521-B1C8-EAEE512D2414}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosqueCommunityTest", "MosqueCommunityTest\MosqueCommunityTest.csproj", "{E0084922-3040-4D59-9324-ABE68C14AB91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,16 @@ Global
 		{C72B43D9-25FF-4521-B1C8-EAEE512D2414}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{C72B43D9-25FF-4521-B1C8-EAEE512D2414}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{C72B43D9-25FF-4521-B1C8-EAEE512D2414}.Release|x86.ActiveCfg = Release|Any CPU
+		{E0084922-3040-4D59-9324-ABE68C14AB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0084922-3040-4D59-9324-ABE68C14AB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0084922-3040-4D59-9324-ABE68C14AB91}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E0084922-3040-4D59-9324-ABE68C14AB91}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E0084922-3040-4D59-9324-ABE68C14AB91}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E0084922-3040-4D59-9324-ABE68C14AB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0084922-3040-4D59-9324-ABE68C14AB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0084922-3040-4D59-9324-ABE68C14AB91}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E0084922-3040-4D59-9324-ABE68C14AB91}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E0084922-3040-4D59-9324-ABE68C14AB91}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
