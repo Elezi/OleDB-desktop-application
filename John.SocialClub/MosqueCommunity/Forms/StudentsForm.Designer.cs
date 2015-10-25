@@ -270,7 +270,7 @@
             this.tabControl1.Location = new System.Drawing.Point(3, 124);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(893, 580);
+            this.tabControl1.Size = new System.Drawing.Size(859, 580);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
@@ -299,7 +299,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(885, 554);
+            this.tabPage1.Size = new System.Drawing.Size(851, 554);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Student Information";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -721,7 +721,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(902, 554);
+            this.tabPage2.Size = new System.Drawing.Size(868, 554);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Parent Information";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1079,7 +1079,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(885, 554);
+            this.tabPage3.Size = new System.Drawing.Size(868, 554);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Grading";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -1096,7 +1096,7 @@
             this.tabControl2.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(607, 453);
+            this.tabControl2.Size = new System.Drawing.Size(590, 453);
             this.tabControl2.TabIndex = 80;
             // 
             // tabPage5
@@ -1108,7 +1108,7 @@
             this.tabPage5.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage5.Size = new System.Drawing.Size(599, 427);
+            this.tabPage5.Size = new System.Drawing.Size(582, 427);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "Plan Overview";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1174,7 +1174,7 @@
             this.tabPage6.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage6.Size = new System.Drawing.Size(616, 427);
+            this.tabPage6.Size = new System.Drawing.Size(582, 427);
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "Chapter Overview";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1253,7 +1253,7 @@
             this.tabPage7.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage7.Size = new System.Drawing.Size(616, 427);
+            this.tabPage7.Size = new System.Drawing.Size(582, 427);
             this.tabPage7.TabIndex = 2;
             this.tabPage7.Text = "Unit Overview";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1529,7 +1529,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(885, 554);
+            this.tabPage4.Size = new System.Drawing.Size(868, 554);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Attendance";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1590,7 +1590,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(3, 61);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(890, 60);
+            this.panel1.Size = new System.Drawing.Size(856, 60);
             this.panel1.TabIndex = 4;
             this.panel1.MouseHover += new System.EventHandler(this.panel1_MouseHover);
             // 
@@ -1672,7 +1672,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(3, 1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(890, 60);
+            this.panel2.Size = new System.Drawing.Size(856, 60);
             this.panel2.TabIndex = 5;
             // 
             // label1
