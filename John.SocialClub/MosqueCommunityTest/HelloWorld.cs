@@ -7,7 +7,7 @@ namespace MosqueCommunityTest
     public class HelloWorld
     {
         [TestMethod]
-        public void HelloWorld()
+        public void HelloWorldTest()
         {
         }
     }

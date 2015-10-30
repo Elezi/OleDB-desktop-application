@@ -98,5 +98,15 @@ namespace MosqueCommunity
         {
 
         }
+
+        private void vTreeView1_AfterSelect(object sender, VIBlend.WinForms.Controls.vTreeViewEventArgs e)
+        {
+
+        }
+
+        private void LessonsForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

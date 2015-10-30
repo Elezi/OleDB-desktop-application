@@ -39,19 +39,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Grade.cs" />
-    <Compile Include="Lesson.cs" />
-    <Compile Include="LessonClass.cs" />
-    <Compile Include="LessonUnit.cs" />
-    <Compile Include="Madrasah.cs" />
-    <Compile Include="Members.cs" />
-    <Compile Include="Mosque.cs" />
-    <Compile Include="Parent.cs" />
-    <Compile Include="Prayers.cs" />
+    <Compile Include="Madrasah\Grade.cs" />
+    <Compile Include="Madrasah\Lesson.cs" />
+    <Compile Include="Madrasah\LessonClass.cs" />
+    <Compile Include="Madrasah\LessonUnit.cs" />
+    <Compile Include="Madrasah\Madrasah.cs" />
+    <Compile Include="Madrasah\Members.cs" />
+    <Compile Include="Madrasah\Mosque.cs" />
+    <Compile Include="Madrasah\Parent.cs" />
+    <Compile Include="Madrasah\Prayers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Test.cs" />
-    <Compile Include="Timetable.cs" />
+    <Compile Include="Madrasah\Student.cs" />
+    <Compile Include="Madrasah\Test.cs" />
+    <Compile Include="Madrasah\Timetable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Administration\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
