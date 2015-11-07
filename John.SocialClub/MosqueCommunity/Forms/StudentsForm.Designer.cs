@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentsForm));
             System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "Elementary Reading",
@@ -112,15 +111,15 @@
             this.label27 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.ContactInfoPanel = new System.Windows.Forms.Panel();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -229,7 +228,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.ContactInfoPanel.SuspendLayout();
@@ -246,13 +244,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(31, 217);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(175, 28);
             this.button1.TabIndex = 0;
@@ -268,11 +265,11 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.tabControl1.Location = new System.Drawing.Point(4, 153);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Location = new System.Drawing.Point(4, 178);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1124, 714);
+            this.tabControl1.Size = new System.Drawing.Size(1329, 714);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
@@ -299,14 +296,13 @@
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Size = new System.Drawing.Size(1116, 685);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Size = new System.Drawing.Size(1321, 685);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Student Information";
             this.tabPage1.UseVisualStyleBackColor = true;
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // checkBox1
             // 
@@ -412,15 +408,15 @@
             // 
             // ContactInfoPanel
             // 
+            this.ContactInfoPanel.Controls.Add(this.comboBox3);
+            this.ContactInfoPanel.Controls.Add(this.comboBox2);
             this.ContactInfoPanel.Controls.Add(this.label41);
             this.ContactInfoPanel.Controls.Add(this.label42);
             this.ContactInfoPanel.Controls.Add(this.label43);
             this.ContactInfoPanel.Controls.Add(this.label44);
             this.ContactInfoPanel.Controls.Add(this.label39);
-            this.ContactInfoPanel.Controls.Add(this.label35);
             this.ContactInfoPanel.Controls.Add(this.label36);
             this.ContactInfoPanel.Controls.Add(this.label37);
-            this.ContactInfoPanel.Controls.Add(this.label38);
             this.ContactInfoPanel.Controls.Add(this.label10);
             this.ContactInfoPanel.Controls.Add(this.label13);
             this.ContactInfoPanel.Controls.Add(this.label12);
@@ -436,7 +432,23 @@
             this.ContactInfoPanel.Name = "ContactInfoPanel";
             this.ContactInfoPanel.Size = new System.Drawing.Size(1007, 337);
             this.ContactInfoPanel.TabIndex = 39;
-            this.ContactInfoPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(220, 184);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(219, 24);
+            this.comboBox3.TabIndex = 58;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(221, 137);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(219, 24);
+            this.comboBox2.TabIndex = 57;
+            this.comboBox2.SelectedValueChanged += new System.EventHandler(this.comboBox2_SelectedValueChanged);
             // 
             // label41
             // 
@@ -483,15 +495,6 @@
             this.label39.Size = new System.Drawing.Size(220, 27);
             this.label39.TabIndex = 52;
             // 
-            // label35
-            // 
-            this.label35.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label35.Location = new System.Drawing.Point(221, 134);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(220, 27);
-            this.label35.TabIndex = 51;
-            // 
             // label36
             // 
             this.label36.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -509,15 +512,6 @@
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(220, 27);
             this.label37.TabIndex = 48;
-            // 
-            // label38
-            // 
-            this.label38.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label38.Location = new System.Drawing.Point(221, 185);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(220, 27);
-            this.label38.TabIndex = 49;
             // 
             // label10
             // 
@@ -586,9 +580,9 @@
             this.label21.Location = new System.Drawing.Point(89, 191);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(100, 17);
+            this.label21.Size = new System.Drawing.Size(81, 17);
             this.label21.TabIndex = 31;
-            this.label21.Text = "State/Province";
+            this.label21.Text = "Municipality";
             // 
             // label24
             // 
@@ -660,7 +654,6 @@
             this.label6.Size = new System.Drawing.Size(65, 17);
             this.label6.TabIndex = 9;
             this.label6.Text = "Category";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -696,7 +689,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(31, 42);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 158);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -721,10 +714,10 @@
             this.tabPage2.Controls.Add(this.label74);
             this.tabPage2.Controls.Add(this.label75);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage2.Size = new System.Drawing.Size(1116, 685);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Size = new System.Drawing.Size(1321, 685);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Parent Information";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1078,10 +1071,10 @@
             this.tabPage3.Controls.Add(this.tabControl2);
             this.tabPage3.Controls.Add(this.panel3);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage3.Size = new System.Drawing.Size(1116, 685);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage3.Size = new System.Drawing.Size(1321, 685);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Grading";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -1098,7 +1091,7 @@
             this.tabControl2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(766, 558);
+            this.tabControl2.Size = new System.Drawing.Size(1128, 558);
             this.tabControl2.TabIndex = 80;
             // 
             // tabPage5
@@ -1110,7 +1103,7 @@
             this.tabPage5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage5.Size = new System.Drawing.Size(758, 529);
+            this.tabPage5.Size = new System.Drawing.Size(1120, 529);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "Plan Overview";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1174,7 +1167,7 @@
             this.tabPage6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage6.Size = new System.Drawing.Size(779, 529);
+            this.tabPage6.Size = new System.Drawing.Size(1120, 529);
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "Chapter Overview";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -1251,7 +1244,7 @@
             this.tabPage7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage7.Size = new System.Drawing.Size(779, 529);
+            this.tabPage7.Size = new System.Drawing.Size(1120, 529);
             this.tabPage7.TabIndex = 2;
             this.tabPage7.Text = "Unit Overview";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1509,10 +1502,10 @@
             // 
             this.tabPage4.Controls.Add(this.dataGridView1);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage4.Size = new System.Drawing.Size(1116, 685);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage4.Size = new System.Drawing.Size(1321, 685);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Attendance";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1527,12 +1520,11 @@
             this.Column2,
             this.Column4});
             this.dataGridView1.Location = new System.Drawing.Point(31, 37);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(593, 389);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Column1
             // 
@@ -1573,11 +1565,10 @@
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(4, 75);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1120, 74);
+            this.panel1.Size = new System.Drawing.Size(1563, 95);
             this.panel1.TabIndex = 4;
-            this.panel1.MouseHover += new System.EventHandler(this.panel1_MouseHover);
             // 
             // button6
             // 
@@ -1586,7 +1577,7 @@
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Location = new System.Drawing.Point(1188, 0);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(65, 28);
             this.button6.TabIndex = 4;
@@ -1599,7 +1590,7 @@
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Location = new System.Drawing.Point(1151, 0);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(29, 28);
             this.button5.TabIndex = 4;
@@ -1608,7 +1599,7 @@
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(485, 14);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(165, 41);
             this.button4.TabIndex = 4;
@@ -1618,7 +1609,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(265, 14);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(165, 41);
             this.button3.TabIndex = 3;
@@ -1628,7 +1619,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(45, 14);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(165, 41);
             this.button2.TabIndex = 2;
@@ -1640,7 +1631,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(845, 22);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(297, 24);
             this.comboBox1.TabIndex = 1;
@@ -1654,7 +1645,6 @@
             this.label2.Size = new System.Drawing.Size(88, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "Find Student";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel2
             // 
@@ -1663,9 +1653,9 @@
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(4, 1);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1120, 74);
+            this.panel2.Size = new System.Drawing.Size(1563, 80);
             this.panel2.TabIndex = 5;
             // 
             // label1
@@ -1678,7 +1668,6 @@
             this.label1.Size = new System.Drawing.Size(155, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Lejla Basriu";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // StudentsForm
             // 
@@ -1687,11 +1676,11 @@
             this.AutoScroll = true;
             this.AutoScrollMinSize = new System.Drawing.Size(20, 60);
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1285, 750);
+            this.ClientSize = new System.Drawing.Size(1553, 905);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "StudentsForm";
             this.Text = "Students Form";
             this.tabControl1.ResumeLayout(false);
@@ -1720,7 +1709,6 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1773,10 +1761,8 @@
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.Label label14;
@@ -1836,7 +1822,6 @@
         private System.Windows.Forms.ColumnHeader Grade;
         private System.Windows.Forms.Label label87;
         private System.Windows.Forms.Label label86;
-        private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Label label83;
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.ListView listView2;
@@ -1860,5 +1845,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }

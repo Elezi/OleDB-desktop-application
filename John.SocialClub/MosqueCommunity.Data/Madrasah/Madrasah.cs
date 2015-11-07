@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MosqueCommunity.Data
 {
-    class Madrasah
+    class MadrasahInfo
     {
     }
 }

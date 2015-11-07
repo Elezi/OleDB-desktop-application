@@ -514,7 +514,6 @@
             this.label1.Size = new System.Drawing.Size(164, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nuri Osmani";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // ParentsForm
             // 
@@ -530,7 +529,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ParentsForm";
             this.Text = "Parents Form";
-            this.Load += new System.EventHandler(this.ParentsForm_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();

@@ -8,8 +8,8 @@ namespace MosqueCommunity.Data
 {
     class Test
     {
-        LessonUnit unit;
-        DateTime date;
-        Dictionary<Student, Grade> results;
+        //LessonUnit unit;
+        //DateTime date;
+        //Dictionary<Student, Grade> results;
     }
 }

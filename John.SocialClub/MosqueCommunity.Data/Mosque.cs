@@ -8,8 +8,8 @@ namespace MosqueCommunity.Data
 {
     public class Mosque
     {
-        Madrasah madrasah;
-        Members members;
-        Prayers prayers;
+        //MadrasahInfo madrasah;
+        //Members members;
+        //Prayers prayers;
     }
 }

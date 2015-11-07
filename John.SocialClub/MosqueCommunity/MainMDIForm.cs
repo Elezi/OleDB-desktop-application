@@ -32,60 +32,48 @@ namespace MosqueCommunity
             //this.showControls.Add(this.trvwMainTree.Nodes.Find("ndMember", true)[0], this.grpbxMembers);
         }
 
-        private void trvwMainTree_Click(object sender, EventArgs e)
-        {
-            //if (trvwMainTree.SelectedNode.Name == "Members") 
-            ShowContainerFromDictionary(trvwMainTree.SelectedNode);
-        }
-        private void ShowContainer (String Name)
-        {
-            grpbxMembers.Hide();
-            grpbxRegisterMembers.Hide();
-            grpbxReportMembers.Hide();
+        //private void trvwMainTree_Click(object sender, EventArgs e)
+        //{
+        //    //if (trvwMainTree.SelectedNode.Name == "Members") 
+        //    ShowContainerFromDictionary(trvwMainTree.SelectedNode);
+        //}
+        //private void ShowContainer (String Name)
+        //{
+        //    grpbxMembers.Hide();
+        //    grpbxRegisterMembers.Hide();
+        //    grpbxReportMembers.Hide();
 
-            switch (Name)
-            {
-                case "Members":
-                    grpbxMembers.Show();
-                    break;
-                case "Register":
-                    grpbxRegisterMembers.Show();
-                    break;
-                case "Report":
-                    grpbxReportMembers.Show();
-                    break;
-                default:
-                    grpbxReportMembers.Show();
-                    break;  
-            }
-        }
-        private void ShowContainerFromDictionary(TreeNode Node)
-        {
-            //grpbxMembers.Hide();
-            //grpbxRegisterMembers.Hide();
-            //grpbxReportMembers.Hide();
+        //    switch (Name)
+        //    {
+        //        case "Members":
+        //            grpbxMembers.Show();
+        //            break;
+        //        case "Register":
+        //            grpbxRegisterMembers.Show();
+        //            break;
+        //        case "Report":
+        //            grpbxReportMembers.Show();
+        //            break;
+        //        default:
+        //            grpbxReportMembers.Show();
+        //            break;  
+        //    }
+        //}
+        //private void ShowContainerFromDictionary(TreeNode Node)
+        //{
+        //    grpbxMembers.Hide();
+        //    grpbxRegisterMembers.Hide();
+        //    grpbxReportMembers.Hide();
 
-            // When you use foreach to enumerate dictionary elements, 
-            // the elements are retrieved as KeyValuePair objects.
-            foreach (KeyValuePair<TreeNode, GroupBox> kvp in showControls)
-            {
-                kvp.Value.Hide();
-                if (kvp.Key == Node)
-                    kvp.Value.Show();
-            }
-
-           
-        }
-
-        private void trvwMainTree_AfterSelect(object sender, TreeViewEventArgs e)
-        {
-
-        }
-
-        private void grpbxRegisterMembers_Enter(object sender, EventArgs e)
-        {
-
-        }
+        //    // When you use foreach to enumerate dictionary elements, 
+        //    // the elements are retrieved as KeyValuePair objects.
+        //    foreach (KeyValuePair<TreeNode, GroupBox> kvp in showControls)
+        //    {
+        //        kvp.Value.Hide();
+        //        if (kvp.Key == Node)
+        //            kvp.Value.Show();
+        //    }    
+        //}
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {

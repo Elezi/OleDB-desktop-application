@@ -8,14 +8,14 @@ namespace MosqueCommunity.Data
 {
     class Student
     {
-        Guid StudentID;
-        string FirstName;
-        string LastName;
-        string DateOfBirth;
-        List<Parent> Parents;
-        List<Lesson> Lessons;
-        Dictionary<LessonClass, bool> Attendance;
-        Dictionary<Lesson, Grade> Grades;
-        Timetable timetable;
+        //Guid StudentID;
+        //string FirstName;
+        //string LastName;
+        //string DateOfBirth;
+        //List<Parent> Parents;
+        //List<Lesson> Lessons;
+        //Dictionary<LessonClass, bool> Attendance;
+        //Dictionary<Lesson, Grade> Grades;
+        //Timetable timetable;
     }
 }

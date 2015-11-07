@@ -7,14 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MosqueCommunity.Data.Enums;
 
 namespace MosqueCommunity
 {
     public partial class StudentsForm : Form
     {
+        CitiesDictionary cd;
         public StudentsForm()
         {
             InitializeComponent();
+            cd = new CitiesDictionary();
+            //cmb2Occupation.DataSource = Enum.GetValues(typeof(Occupation));
+            //cmb2MaritalStatus.DataSource = Enum.GetValues(typeof(MaritalStatus));
+            //cmb2HealthStatus.DataSource = Enum.GetValues(typeof(HealthStatus));
+            comboBox2.DataSource = cd.CityNamesList;
+            comboBox3.DataSource = cd.MunicipalitiesList;
         }
 
         protected override void OnLoad(EventArgs e)
@@ -24,52 +32,6 @@ namespace MosqueCommunity
             this.WindowState = FormWindowState.Maximized;
             this.BringToFront();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void label14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox11_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void button6_Click(object sender, EventArgs e)
         {
             ContactInfoPanel.Visible = !ContactInfoPanel.Visible;
@@ -94,9 +56,13 @@ namespace MosqueCommunity
 
         }
 
-        private void panel1_MouseHover(object sender, EventArgs e)
+        private void comboBox2_SelectedValueChanged(object sender, EventArgs e)
         {
-
+            var selectedCity = comboBox2.SelectedItem;
+            //var cd = new CitiesDictionary();
+            var list = cd.MunicipalitiesDictionary.Where(v => v.Value == (string)selectedCity).Select(v => v.Key).ToList();
+            comboBox3.DataSource = list;
+            comboBox3.SelectedItem = list.First();
         }
     }
 }

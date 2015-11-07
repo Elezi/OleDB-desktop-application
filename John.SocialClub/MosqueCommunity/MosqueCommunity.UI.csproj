@@ -184,6 +184,10 @@
     </EmbeddedResource>
     <None Include="Images\Splash screen.pdn" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\MosqueCommunity.Data.Enums.Cities+CityNames.datasource" />
+    <None Include="Properties\DataSources\MosqueCommunity.Data.Enums.Cities+Municipalities.datasource" />
+    <None Include="Properties\DataSources\MosqueCommunity.Data.Enums.Cities.datasource" />
+    <None Include="Properties\DataSources\MosqueCommunity.Data.Mosque.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -245,7 +249,12 @@
     <Content Include="Images\User_icon1.png" />
     <Content Include="Images\Welcome.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MosqueCommunity.Data\MosqueCommunity.Data.csproj">
+      <Project>{c72b43d9-25ff-4521-b1c8-eaee512d2414}</Project>
+      <Name>MosqueCommunity.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

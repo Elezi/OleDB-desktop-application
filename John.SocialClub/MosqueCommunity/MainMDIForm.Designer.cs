@@ -343,10 +343,10 @@ namespace MosqueCommunity
 
         #endregion
 
-        private System.Windows.Forms.TreeView trvwMainTree;
-        private System.Windows.Forms.GroupBox grpbxMembers;
-        private System.Windows.Forms.GroupBox grpbxRegisterMembers;
-        private System.Windows.Forms.GroupBox grpbxReportMembers;
+        //private System.Windows.Forms.TreeView trvwMainTree;
+        //private System.Windows.Forms.GroupBox grpbxMembers;
+        //private System.Windows.Forms.GroupBox grpbxRegisterMembers;
+        //private System.Windows.Forms.GroupBox grpbxReportMembers;
         private System.Windows.Forms.ImageList imgLstTreeview;
         private Ribbon ribbon1;
         private RibbonOrbMenuItem ribbonOrbMenuItem1;

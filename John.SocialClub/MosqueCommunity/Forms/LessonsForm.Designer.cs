@@ -28,59 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Basri Ademi");
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Sali Aziri");
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem("Basri Ademi");
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem("Sali Aziri");
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
             "Pre-Reading",
             "First scripts"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
             "History of Prophets",
             "Early Prophets"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("Pre-Reading");
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem("History of Prophets");
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Elif Ba");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Simple Prayers");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Short Quran Chapters");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Elementary Reading", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3});
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Reading sessions");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Pre- Quran", new System.Windows.Forms.TreeNode[] {
-            treeNode5});
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Islam pillars");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Prayers in mother language");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Rules of prayer and abolition");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Elementary Ilmihal", new System.Windows.Forms.TreeNode[] {
-            treeNode7,
-            treeNode8,
-            treeNode9});
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Elementary Ethics");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Respect for Parents");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Examples of good behaviour");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Good Behaviour", new System.Windows.Forms.TreeNode[] {
-            treeNode11,
-            treeNode12,
-            treeNode13});
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Djuzz");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Reading translated chapters");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Quran", new System.Windows.Forms.TreeNode[] {
-            treeNode15,
-            treeNode16});
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Distinguished Prophets");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Prophets stories");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Prophet Mohammad");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("History of Prophets", new System.Windows.Forms.TreeNode[] {
-            treeNode18,
-            treeNode19,
-            treeNode20});
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Lesson Plan", new System.Windows.Forms.TreeNode[] {
-            treeNode4,
-            treeNode6,
-            treeNode10,
-            treeNode14,
-            treeNode17,
-            treeNode21});
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem("Pre-Reading");
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem("History of Prophets");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Elif Ba");
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Simple Prayers");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Short Quran Chapters");
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Elementary Reading", new System.Windows.Forms.TreeNode[] {
+            treeNode45,
+            treeNode46,
+            treeNode47});
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Reading sessions");
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Pre- Quran", new System.Windows.Forms.TreeNode[] {
+            treeNode49});
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Islam pillars");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Prayers in mother language");
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Rules of prayer and abolition");
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Elementary Ilmihal", new System.Windows.Forms.TreeNode[] {
+            treeNode51,
+            treeNode52,
+            treeNode53});
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Elementary Ethics");
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Respect for Parents");
+            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Examples of good behaviour");
+            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Good Behaviour", new System.Windows.Forms.TreeNode[] {
+            treeNode55,
+            treeNode56,
+            treeNode57});
+            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Djuzz");
+            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Reading translated chapters");
+            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Quran", new System.Windows.Forms.TreeNode[] {
+            treeNode59,
+            treeNode60});
+            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("Distinguished Prophets");
+            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("Prophets stories");
+            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("Prophet Mohammad");
+            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("History of Prophets", new System.Windows.Forms.TreeNode[] {
+            treeNode62,
+            treeNode63,
+            treeNode64});
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("Lesson Plan", new System.Windows.Forms.TreeNode[] {
+            treeNode48,
+            treeNode50,
+            treeNode54,
+            treeNode58,
+            treeNode61,
+            treeNode65});
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -164,7 +164,7 @@
             this.panel1.Location = new System.Drawing.Point(4, 75);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1158, 74);
+            this.panel1.Size = new System.Drawing.Size(1095, 74);
             this.panel1.TabIndex = 4;
             // 
             // button5
@@ -235,7 +235,7 @@
             this.panel2.Location = new System.Drawing.Point(4, 1);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1158, 74);
+            this.panel2.Size = new System.Drawing.Size(1095, 74);
             this.panel2.TabIndex = 5;
             // 
             // label1
@@ -248,7 +248,6 @@
             this.label1.Size = new System.Drawing.Size(164, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nuri Osmani";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // tabPageLessonInfo
             // 
@@ -268,7 +267,7 @@
             this.tabPageLessonInfo.Margin = new System.Windows.Forms.Padding(4);
             this.tabPageLessonInfo.Name = "tabPageLessonInfo";
             this.tabPageLessonInfo.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPageLessonInfo.Size = new System.Drawing.Size(833, 493);
+            this.tabPageLessonInfo.Size = new System.Drawing.Size(770, 493);
             this.tabPageLessonInfo.TabIndex = 0;
             this.tabPageLessonInfo.Text = "Lesson Information";
             this.tabPageLessonInfo.UseVisualStyleBackColor = true;
@@ -280,9 +279,7 @@
             this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(180, 24);
-            this.comboBox3.TabIndex = 65;
-            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
-            // 
+            this.comboBox3.TabIndex = 65;            // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
@@ -290,9 +287,8 @@
             this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(180, 24);
-            this.comboBox2.TabIndex = 65;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
-            // 
+            this.comboBox2.TabIndex = 65;     
+            //
             // textBox18
             // 
             this.textBox18.Location = new System.Drawing.Point(409, 52);
@@ -355,7 +351,6 @@
             this.label6.Size = new System.Drawing.Size(124, 17);
             this.label6.TabIndex = 9;
             this.label6.Text = "Teacher attending";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -376,7 +371,6 @@
             this.label4.Size = new System.Drawing.Size(134, 17);
             this.label4.TabIndex = 5;
             this.label4.Text = "Number of Students";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -387,7 +381,6 @@
             this.label3.Size = new System.Drawing.Size(95, 17);
             this.label3.TabIndex = 3;
             this.label3.Text = "Lesson Name";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // tabControl1
             // 
@@ -396,11 +389,11 @@
             this.tabControl1.Controls.Add(this.tabPageLessonInfo);
             this.tabControl1.Controls.Add(this.tabPageStudentsInLesson);
             this.tabControl1.Controls.Add(this.tabPageLessonUnits);
-            this.tabControl1.Location = new System.Drawing.Point(325, 153);
+            this.tabControl1.Location = new System.Drawing.Point(326, 155);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(841, 522);
+            this.tabControl1.Size = new System.Drawing.Size(778, 522);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPageStudentsInLesson
@@ -411,19 +404,18 @@
             this.tabPageStudentsInLesson.Margin = new System.Windows.Forms.Padding(4);
             this.tabPageStudentsInLesson.Name = "tabPageStudentsInLesson";
             this.tabPageStudentsInLesson.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPageStudentsInLesson.Size = new System.Drawing.Size(854, 493);
+            this.tabPageStudentsInLesson.Size = new System.Drawing.Size(791, 493);
             this.tabPageStudentsInLesson.TabIndex = 1;
             this.tabPageStudentsInLesson.Text = "Students in Lesson";
             this.tabPageStudentsInLesson.UseVisualStyleBackColor = true;
-            this.tabPageStudentsInLesson.Click += new System.EventHandler(this.tabPageStudentsInLesson_Click);
             // 
             // listView3
             // 
             this.listView3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader4});
             this.listView3.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2});
+            listViewItem13,
+            listViewItem14});
             this.listView3.Location = new System.Drawing.Point(36, 42);
             this.listView3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listView3.Name = "listView3";
@@ -458,7 +450,7 @@
             this.tabPageLessonUnits.Location = new System.Drawing.Point(4, 25);
             this.tabPageLessonUnits.Margin = new System.Windows.Forms.Padding(4);
             this.tabPageLessonUnits.Name = "tabPageLessonUnits";
-            this.tabPageLessonUnits.Size = new System.Drawing.Size(854, 493);
+            this.tabPageLessonUnits.Size = new System.Drawing.Size(791, 493);
             this.tabPageLessonUnits.TabIndex = 2;
             this.tabPageLessonUnits.Text = "Lesson Units";
             this.tabPageLessonUnits.UseVisualStyleBackColor = true;
@@ -469,8 +461,8 @@
             this.columnHeader2,
             this.columnHeader3});
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3,
-            listViewItem4});
+            listViewItem15,
+            listViewItem16});
             this.listView2.Location = new System.Drawing.Point(3, 151);
             this.listView2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listView2.Name = "listView2";
@@ -494,8 +486,8 @@
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1});
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem5,
-            listViewItem6});
+            listViewItem17,
+            listViewItem18});
             this.listView1.Location = new System.Drawing.Point(4, 2);
             this.listView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listView1.Name = "listView1";
@@ -540,7 +532,6 @@
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.Size = new System.Drawing.Size(460, 124);
             this.dataGridView4.TabIndex = 14;
-            this.dataGridView4.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellContentClick);
             // 
             // Column1
             // 
@@ -574,7 +565,7 @@
             this.panel3.Location = new System.Drawing.Point(4, 155);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(315, 688);
+            this.panel3.Size = new System.Drawing.Size(315, 697);
             this.panel3.TabIndex = 44;
             // 
             // vNavPane1
@@ -618,53 +609,53 @@
             this.treeView1.Location = new System.Drawing.Point(14, 11);
             this.treeView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Node7";
-            treeNode1.Text = "Elif Ba";
-            treeNode2.Name = "Node8";
-            treeNode2.Text = "Simple Prayers";
-            treeNode3.Name = "Node9";
-            treeNode3.Text = "Short Quran Chapters";
-            treeNode4.Name = "Node1";
-            treeNode4.Text = "Elementary Reading";
-            treeNode5.Name = "Node10";
-            treeNode5.Text = "Reading sessions";
-            treeNode6.Name = "Node2";
-            treeNode6.Text = "Pre- Quran";
-            treeNode7.Name = "Node11";
-            treeNode7.Text = "Islam pillars";
-            treeNode8.Name = "Node12";
-            treeNode8.Text = "Prayers in mother language";
-            treeNode9.Name = "Node13";
-            treeNode9.Text = "Rules of prayer and abolition";
-            treeNode10.Name = "Node3";
-            treeNode10.Text = "Elementary Ilmihal";
-            treeNode11.Name = "Node15";
-            treeNode11.Text = "Elementary Ethics";
-            treeNode12.Name = "Node16";
-            treeNode12.Text = "Respect for Parents";
-            treeNode13.Name = "Node17";
-            treeNode13.Text = "Examples of good behaviour";
-            treeNode14.Name = "Node4";
-            treeNode14.Text = "Good Behaviour";
-            treeNode15.Name = "Node18";
-            treeNode15.Text = "Djuzz";
-            treeNode16.Name = "Node19";
-            treeNode16.Text = "Reading translated chapters";
-            treeNode17.Name = "Node5";
-            treeNode17.Text = "Quran";
-            treeNode18.Name = "Node20";
-            treeNode18.Text = "Distinguished Prophets";
-            treeNode19.Name = "Node21";
-            treeNode19.Text = "Prophets stories";
-            treeNode20.Name = "Node22";
-            treeNode20.Text = "Prophet Mohammad";
-            treeNode21.Name = "Node6";
-            treeNode21.Text = "History of Prophets";
-            treeNode22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            treeNode22.Name = "Node0";
-            treeNode22.Text = "Lesson Plan";
+            treeNode45.Name = "Node7";
+            treeNode45.Text = "Elif Ba";
+            treeNode46.Name = "Node8";
+            treeNode46.Text = "Simple Prayers";
+            treeNode47.Name = "Node9";
+            treeNode47.Text = "Short Quran Chapters";
+            treeNode48.Name = "Node1";
+            treeNode48.Text = "Elementary Reading";
+            treeNode49.Name = "Node10";
+            treeNode49.Text = "Reading sessions";
+            treeNode50.Name = "Node2";
+            treeNode50.Text = "Pre- Quran";
+            treeNode51.Name = "Node11";
+            treeNode51.Text = "Islam pillars";
+            treeNode52.Name = "Node12";
+            treeNode52.Text = "Prayers in mother language";
+            treeNode53.Name = "Node13";
+            treeNode53.Text = "Rules of prayer and abolition";
+            treeNode54.Name = "Node3";
+            treeNode54.Text = "Elementary Ilmihal";
+            treeNode55.Name = "Node15";
+            treeNode55.Text = "Elementary Ethics";
+            treeNode56.Name = "Node16";
+            treeNode56.Text = "Respect for Parents";
+            treeNode57.Name = "Node17";
+            treeNode57.Text = "Examples of good behaviour";
+            treeNode58.Name = "Node4";
+            treeNode58.Text = "Good Behaviour";
+            treeNode59.Name = "Node18";
+            treeNode59.Text = "Djuzz";
+            treeNode60.Name = "Node19";
+            treeNode60.Text = "Reading translated chapters";
+            treeNode61.Name = "Node5";
+            treeNode61.Text = "Quran";
+            treeNode62.Name = "Node20";
+            treeNode62.Text = "Distinguished Prophets";
+            treeNode63.Name = "Node21";
+            treeNode63.Text = "Prophets stories";
+            treeNode64.Name = "Node22";
+            treeNode64.Text = "Prophet Mohammad";
+            treeNode65.Name = "Node6";
+            treeNode65.Text = "History of Prophets";
+            treeNode66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            treeNode66.Name = "Node0";
+            treeNode66.Text = "Lesson Plan";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode22});
+            treeNode66});
             this.treeView1.Size = new System.Drawing.Size(245, 301);
             this.treeView1.TabIndex = 41;
             // 
@@ -700,13 +691,12 @@
             this.vTreeView1.Nodes.Add(this.vTreeNode1);
             this.vTreeView1.Nodes.Add(this.vTreeNode3);
             this.vTreeView1.ScrollPosition = new System.Drawing.Point(0, 0);
-            this.vTreeView1.SelectedNode = null;
+            this.vTreeView1.SelectedNode = this.vTreeNode3;
             this.vTreeView1.Size = new System.Drawing.Size(256, 300);
             this.vTreeView1.TabIndex = 0;
             this.vTreeView1.Text = "vTreeView1";
-            this.vTreeView1.VIBlendScrollBarsTheme = VIBlend.Utilities.VIBLEND_THEME.OFFICEBLACK;
-            this.vTreeView1.VIBlendTheme = VIBlend.Utilities.VIBLEND_THEME.OFFICEBLACK;
-            this.vTreeView1.AfterSelect += new VIBlend.WinForms.Controls.vTreeViewEventHandler(this.vTreeView1_AfterSelect);
+            this.vTreeView1.VIBlendScrollBarsTheme = VIBlend.Utilities.VIBLEND_THEME.OFFICE2010SILVER;
+            this.vTreeView1.VIBlendTheme = VIBlend.Utilities.VIBLEND_THEME.OFFICE2010SILVER;
             // 
             // vTreeNode1
             // 
@@ -762,6 +752,7 @@
             this.vTreeNode3.HighlightForeColor = System.Drawing.SystemColors.ControlText;
             this.vTreeNode3.Nodes.Add(this.vTreeNode6);
             this.vTreeNode3.RoundedCornersMask = ((byte)(15));
+            this.vTreeNode3.Selected = true;
             this.vTreeNode3.SelectedForeColor = System.Drawing.SystemColors.ControlText;
             this.vTreeNode3.Text = "Muhamed";
             this.vTreeNode3.TooltipText = "Muhamed";
@@ -821,7 +812,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LessonsForm";
             this.Text = "Lessons Form";
-            this.Load += new System.EventHandler(this.LessonsForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

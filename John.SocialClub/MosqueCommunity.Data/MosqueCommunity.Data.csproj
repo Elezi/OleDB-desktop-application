@@ -39,13 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\Cities.cs" />
+    <Compile Include="Enums\Municipalities.cs" />
     <Compile Include="Madrasah\Grade.cs" />
     <Compile Include="Madrasah\Lesson.cs" />
     <Compile Include="Madrasah\LessonClass.cs" />
     <Compile Include="Madrasah\LessonUnit.cs" />
     <Compile Include="Madrasah\Madrasah.cs" />
-    <Compile Include="Madrasah\Members.cs" />
-    <Compile Include="Madrasah\Mosque.cs" />
+    <Compile Include="Administration\Members.cs" />
+    <Compile Include="Madrasah\PersonalInformation.cs" />
+    <Compile Include="Mosque.cs" />
     <Compile Include="Madrasah\Parent.cs" />
     <Compile Include="Madrasah\Prayers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -53,9 +56,7 @@
     <Compile Include="Madrasah\Test.cs" />
     <Compile Include="Madrasah\Timetable.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Administration\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

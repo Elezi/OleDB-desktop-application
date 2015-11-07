@@ -176,7 +176,6 @@
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // EditPage
             // 
@@ -198,7 +197,6 @@
             this.EditPage.TabIndex = 1;
             this.EditPage.Text = "Edit";
             this.EditPage.UseVisualStyleBackColor = true;
-            this.EditPage.Click += new System.EventHandler(this.EditPage_Click);
             // 
             // button2
             // 

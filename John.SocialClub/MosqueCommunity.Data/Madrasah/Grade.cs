@@ -8,7 +8,7 @@ namespace MosqueCommunity.Data
 {
     class Grade
     {
-        LessonUnit unit;
-        List<Test> tests;
+        //LessonUnit unit;
+        //List<Test> tests;
     }
 }
