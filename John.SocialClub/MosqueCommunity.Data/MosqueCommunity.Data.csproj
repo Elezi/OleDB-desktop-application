@@ -48,6 +48,9 @@
     <Compile Include="Madrasah\Madrasah.cs" />
     <Compile Include="Administration\Members.cs" />
     <Compile Include="Madrasah\PersonalInformation.cs" />
+    <Compile Include="Madrasah\Premise.cs" />
+    <Compile Include="Madrasah\Teacher.cs" />
+    <Compile Include="Madrasah\CalendarUnits.cs" />
     <Compile Include="Mosque.cs" />
     <Compile Include="Madrasah\Parent.cs" />
     <Compile Include="Madrasah\Prayers.cs" />

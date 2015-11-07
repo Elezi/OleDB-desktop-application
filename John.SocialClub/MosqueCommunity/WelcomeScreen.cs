@@ -16,11 +16,6 @@ namespace MosqueCommunity
         {
             InitializeComponent();
         }
-
-        private void WelcomeScreen_Load(object sender, EventArgs e)
-        {
-
-        }
         Timer tmr;
         private void WelcomeScreen_Shown(object sender, EventArgs e)
         {
@@ -40,11 +35,6 @@ namespace MosqueCommunity
             mf.Show();
             //hide this form
             this.Hide();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void pictureBox1_DoubleClick(object sender, EventArgs e)

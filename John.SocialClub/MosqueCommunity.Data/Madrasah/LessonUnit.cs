@@ -8,5 +8,6 @@ namespace MosqueCommunity.Data
 {
     class LessonUnit
     {
+
     }
 }

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace MosqueCommunity.Data.Madrasah
 {
-    class Test
+   public class Premise
     {
-        LessonUnit unit;
-        DateTime date;
-        Dictionary<Student, Grade> results;
+       string addreess;
+       int floor;
+       char PremiseIndex;
+       string PremiseName { get { return floor.ToString() + PremiseIndex; } } 
     }
 }

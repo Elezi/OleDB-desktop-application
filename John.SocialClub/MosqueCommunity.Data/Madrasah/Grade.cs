@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MosqueCommunity.Data
+namespace MosqueCommunity.Data.Madrasah
 {
     class Grade
     {
-        //LessonUnit unit;
-        //List<Test> tests;
+        int value;
+        LessonUnit unit;
+        Test test;
     }
 }

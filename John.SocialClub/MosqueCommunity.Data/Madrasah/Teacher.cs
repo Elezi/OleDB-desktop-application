@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MosqueCommunity.Data.Madrasah
 {
-    public abstract class LessonAbstract
+    class Teacher
     {
+        PersonalInformation TeacherInfo;
+        Guid TeacherID;
+        List<Lesson> Lessons;
 
-    }
-    public class Lesson : LessonAbstract
-    {
     }
 }
