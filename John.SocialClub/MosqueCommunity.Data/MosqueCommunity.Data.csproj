@@ -41,10 +41,9 @@
   <ItemGroup>
     <Compile Include="Enums\Cities.cs" />
     <Compile Include="Enums\Municipalities.cs" />
-    <Compile Include="Madrasah\Grade.cs" />
-    <Compile Include="Madrasah\Lesson.cs" />
-    <Compile Include="Madrasah\LessonClass.cs" />
-    <Compile Include="Madrasah\LessonUnit.cs" />
+    <Compile Include="Madrasah\Evaluation.cs" />
+    <Compile Include="Madrasah\Exercises.cs" />
+    <Compile Include="Madrasah\Curriculum.cs" />
     <Compile Include="Madrasah\Madrasah.cs" />
     <Compile Include="Administration\Members.cs" />
     <Compile Include="Madrasah\PersonalInformation.cs" />

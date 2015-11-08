@@ -61,8 +61,15 @@ namespace MosqueCommunity
             var selectedCity = comboBox2.SelectedItem;
             //var cd = new CitiesDictionary();
             var list = cd.MunicipalitiesDictionary.Where(v => v.Value == (string)selectedCity).Select(v => v.Key).ToList();
-            comboBox3.DataSource = list;
-            comboBox3.SelectedItem = list.First();
+           if(list.Any())
+           { 
+                comboBox3.DataSource = list;
+                comboBox3.SelectedItem = list.First();
+           }else
+           {
+               comboBox3.DataSource = new List<string>();
+               comboBox3.ResetText();
+           }
         }
     }
 }

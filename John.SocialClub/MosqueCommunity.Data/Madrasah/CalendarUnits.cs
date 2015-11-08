@@ -34,8 +34,10 @@ namespace MosqueCommunity.Data.Madrasah
     }
     public class SemesterHour
     {
+       
         DateTime TimeBegin;
         DateTime TimeEnd;
+        DateTime Break; 
     }
 
 }

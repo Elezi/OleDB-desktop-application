@@ -10,7 +10,6 @@ namespace MosqueCommunity.Data.Madrasah
     {
         PersonalInformation TeacherInfo;
         Guid TeacherID;
-        List<Lesson> Lessons;
-
+        List<Field> fieldCompetency;
     }
 }

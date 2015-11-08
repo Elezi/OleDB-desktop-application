@@ -14,9 +14,9 @@ namespace MosqueCommunity.Data.Madrasah
     }
     class Madrasah
     {
-        MadrasahInfo Info;
-        List<Lesson>  Curriculum;
-        List<Teacher> FacultyMembers;
-        List<Premise> Premises;
+        MadrasahInfo info;
+        List<Field> fields;
+        List<Teacher> facultyMembers;
+        List<Premise> premises;
     }
 }
