@@ -8,8 +8,8 @@ namespace MosqueCommunity.Data.Madrasah
 {
     class MadrasahInfo
     {
-        Mosque Mosque;
-        PersonalInformation Principal;
+        public Mosque Mosque { get; set; }
+        public PersonalInformation Principal{ get; set; }
 
     }
     class Madrasah

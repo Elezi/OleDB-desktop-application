@@ -8,16 +8,16 @@ namespace MosqueCommunity.Data.Madrasah
 {
     class PersonalInformation
     {
-        string FirstName;
-        string LastName;
-        string DateOfBirth;
-        string Street;
-        Enum City;
-        Enum StateProvince;
-        Enum PostalCode;
-        string EmailAddress;
-        string HomePhone;
-        string MobilePhone;
-        string Notes;
+        string FirstName { get; set; }
+        string LastName { get; set; }
+        string DateOfBirth { get; set; }
+        string Street { get; set; }
+        Enum City { get; set; }
+        Enum StateProvince { get; set; }
+        Enum PostalCode { get; set; }
+        string EmailAddress { get; set; }
+        string HomePhone { get; set; }
+        string MobilePhone { get; set; }
+        string Notes { get; set; }
     }
 }
