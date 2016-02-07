@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosqueCommunity.Data", "Mos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MosqueCommunityTest", "MosqueCommunityTest\MosqueCommunityTest.csproj", "{E0084922-3040-4D59-9324-ABE68C14AB91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFTest", "EFTest\EFTest.csproj", "{2ECE4D72-775F-43F1-B5C3-EED06999D96A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +94,16 @@ Global
 		{E0084922-3040-4D59-9324-ABE68C14AB91}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E0084922-3040-4D59-9324-ABE68C14AB91}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E0084922-3040-4D59-9324-ABE68C14AB91}.Release|x86.ActiveCfg = Release|Any CPU
+		{2ECE4D72-775F-43F1-B5C3-EED06999D96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECE4D72-775F-43F1-B5C3-EED06999D96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECE4D72-775F-43F1-B5C3-EED06999D96A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2ECE4D72-775F-43F1-B5C3-EED06999D96A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2ECE4D72-775F-43F1-B5C3-EED06999D96A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2ECE4D72-775F-43F1-B5C3-EED06999D96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECE4D72-775F-43F1-B5C3-EED06999D96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECE4D72-775F-43F1-B5C3-EED06999D96A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2ECE4D72-775F-43F1-B5C3-EED06999D96A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2ECE4D72-775F-43F1-B5C3-EED06999D96A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
