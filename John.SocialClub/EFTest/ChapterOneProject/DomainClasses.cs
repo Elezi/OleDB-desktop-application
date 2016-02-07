@@ -21,6 +21,30 @@ namespace EFTest.ChapterOneProject
         public AnimalType AnimalType { get; set; }
         public DateTime FirstVisit { get; set; }
         public List<Visit> Visits { get; set; }
+
+        public static void CreateNewPatient()
+        {
+            var dog = new AnimalType { TypeName = "Dog" };
+            var patient = new Patient
+            {
+                Name = "Sampson",
+                BirthDate = new DateTime(2008, 1, 28),
+                AnimalType = dog,
+                Visits = new List<Visit>
+                {
+                    new Visit
+                {
+                    Date = new DateTime(2011, 9, 1)
+                }
+                }
+        };
+            using (var context = new VetContext())
+            {
+                context.Patients.Add(patient);
+                context.SaveChanges();
+            }
+        }
+
     }
     class Visit
     {
@@ -36,4 +60,6 @@ namespace EFTest.ChapterOneProject
         public int Id { get; set; }
         public string TypeName { get; set; }
     }
+
+
 }
